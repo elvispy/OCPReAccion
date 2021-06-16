@@ -1,609 +1,592 @@
-{
-    "uri": "https://www.contrataciones.gov.py/datos/api/v3/doc/search/processes%3Fitems_per_page%3D100%26fecha_desde%3D2013-01-01%26tipo_fecha%3Dadjudicacion%26tender.procuringEntity.name%3DMunicipalidad%2520de%2520Asunci%C3%B3n%26contracts.implementation.financialProgress.breakdown.classifications.financiador%3D3",
-    "publishedDate": "2021-06-16T14:14:43Z",
-    "publisher": {
-        "name": "Direcci\u00f3n Nacional de Contrataciones P\u00fablicas, Paraguay"
-    },
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "publicationPolicy": "https://www.contrataciones.gov.py/datos/legal",
-    "version": "1.1",
-    "records": [
-        {
-            "compiledRelease": {
-                "tender": {
-                    "procuringEntity": {
-                        "name": "Municipalidad de Asunci\u00f3n",
-                        "id": "DNCP-SICP-CODE-108"
-                    },
-                    "mainProcurementCategoryDetails": "Bienes - Muebles y Enseres",
-                    "statusDetails": "Adjudicada",
-                    "id": "351815-adquisicion-mobiliarios-instituciones-edicativas-fonacide-1",
-                    "title": "ADQUISICI\u00d3N DE MOBILIARIOS A INSTITUCIONES EDICATIVAS (FONACIDE)",
-                    "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
-                    "tenderPeriod": {
-                        "durationInDays": 1,
-                        "endDate": "2018-12-27T09:00:00-04:00",
-                        "startDate": "2018-12-26T09:00:00-04:00"
-                    }
-                },
-                "date": "2020-09-21T13:03:10-04:00",
-                "planning": {
-                    "identifier": "351815"
-                },
-                "awards": [
-                    {
-                        "suppliers": [
-                            {
-                                "name": "CLASSIC MOBLES SOCIEDAD ANONIMA",
-                                "id": "PY-RUC-80074310-5"
-                            }
-                        ],
-                        "id": "351815-classic-mobles-sociedad-anonima-3"
-                    },
-                    {
-                        "suppliers": [
-                            {
-                                "name": "MARCOS ANTONIO LOPEZ GARCIA",
-                                "id": "PY-RUC-3225056-8"
-                            }
-                        ],
-                        "id": "351815-marcos-antonio-lopez-garcia-2"
-                    }
-                ],
-                "contracts": [
-                    {
-                        "id": "LP-30001-19-171139"
-                    },
-                    {
-                        "id": "LP-30001-19-171140"
-                    }
-                ],
-                "ocid": "ocds-03ad3f-351815-1",
-                "buyer": {
+[
+    {
+        "compiledRelease": {
+            "tender": {
+                "procuringEntity": {
                     "name": "Municipalidad de Asunci\u00f3n",
                     "id": "DNCP-SICP-CODE-108"
+                },
+                "mainProcurementCategoryDetails": "Bienes - Muebles y Enseres",
+                "statusDetails": "Adjudicada",
+                "id": "351815-adquisicion-mobiliarios-instituciones-edicativas-fonacide-1",
+                "title": "ADQUISICI\u00d3N DE MOBILIARIOS A INSTITUCIONES EDICATIVAS (FONACIDE)",
+                "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
+                "tenderPeriod": {
+                    "durationInDays": 1,
+                    "endDate": "2018-12-27T09:00:00-04:00",
+                    "startDate": "2018-12-26T09:00:00-04:00"
                 }
             },
+            "date": "2020-09-21T13:03:10-04:00",
+            "planning": {
+                "identifier": "351815"
+            },
+            "awards": [
+                {
+                    "suppliers": [
+                        {
+                            "name": "CLASSIC MOBLES SOCIEDAD ANONIMA",
+                            "id": "PY-RUC-80074310-5"
+                        }
+                    ],
+                    "id": "351815-classic-mobles-sociedad-anonima-3"
+                },
+                {
+                    "suppliers": [
+                        {
+                            "name": "MARCOS ANTONIO LOPEZ GARCIA",
+                            "id": "PY-RUC-3225056-8"
+                        }
+                    ],
+                    "id": "351815-marcos-antonio-lopez-garcia-2"
+                }
+            ],
+            "contracts": [
+                {
+                    "id": "LP-30001-19-171139"
+                },
+                {
+                    "id": "LP-30001-19-171140"
+                }
+            ],
             "ocid": "ocds-03ad3f-351815-1",
-            "releases": [
-                {
-                    "date": "2020-09-21T13:03:10-04:00",
-                    "tag": [
-                        "planning",
-                        "tender",
-                        "tenderUpdate",
-                        "award",
-                        "contract",
-                        "implementation"
-                    ],
-                    "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/351815-adquisicion-mobiliarios-instituciones-edicativas-fonacide-1-1600693390.28074"
-                },
-                {
-                    "date": "2020-09-11T11:09:36-04:00",
-                    "tag": [
-                        "planning",
-                        "tender",
-                        "tenderUpdate",
-                        "award",
-                        "contract",
-                        "implementation"
-                    ],
-                    "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/351815-adquisicion-mobiliarios-instituciones-edicativas-fonacide-1-1599822576.39083"
-                },
-                {
-                    "date": "2019-05-03T12:53:32-04:00",
-                    "tag": [
-                        "planning",
-                        "tender",
-                        "tenderUpdate",
-                        "award",
-                        "contract",
-                        "implementation"
-                    ],
-                    "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/351815-adquisicion-mobiliarios-instituciones-edicativas-fonacide-1-1556888012.24756"
-                }
-            ]
+            "buyer": {
+                "name": "Municipalidad de Asunci\u00f3n",
+                "id": "DNCP-SICP-CODE-108"
+            }
         },
-        {
-            "compiledRelease": {
-                "tender": {
-                    "procuringEntity": {
-                        "name": "Municipalidad de Asunci\u00f3n",
-                        "id": "DNCP-SICP-CODE-108"
-                    },
-                    "coveredBy": [
-                        "fonacide"
-                    ],
-                    "mainProcurementCategoryDetails": "Servicios - Servicios de ceremonial, gastronomico y funerarios",
-                    "statusDetails": "Adjudicada",
-                    "id": "347053-servicio-almuerzo-escolar-instituciones-educativas-1",
-                    "title": "SERVICIO DE ALMUERZO ESCOLAR PARA INSTITUCIONES EDUCATIVAS",
-                    "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
-                    "tenderPeriod": {
-                        "durationInDays": 1,
-                        "endDate": "2018-12-11T09:00:00-04:00",
-                        "startDate": "2018-12-10T09:00:00-04:00"
-                    }
-                },
-                "date": "2019-10-28T16:53:32-04:00",
-                "planning": {
-                    "identifier": "347053"
-                },
-                "awards": [
-                    {
-                        "suppliers": [
-                            {
-                                "name": "PLASMA S.A. ",
-                                "id": "PY-RUC-80034440-5"
-                            }
-                        ],
-                        "id": "347053-plasma-s-a-5"
-                    },
-                    {
-                        "suppliers": [
-                            {
-                                "name": "PATRICIA ESTHER FERNANDEZ VALIENTE DE ALCARAZ",
-                                "id": "PY-RUC-1547085-7"
-                            }
-                        ],
-                        "id": "347053-patricia-esther-fernandez-valiente-alcaraz-4"
-                    },
-                    {
-                        "suppliers": [
-                            {
-                                "name": "AIDA AQUINO DE FARIAS",
-                                "id": "PY-RUC-411382-9"
-                            }
-                        ],
-                        "id": "347053-aida-aquino-farias-3"
-                    }
+        "ocid": "ocds-03ad3f-351815-1",
+        "releases": [
+            {
+                "date": "2020-09-21T13:03:10-04:00",
+                "tag": [
+                    "planning",
+                    "tender",
+                    "tenderUpdate",
+                    "award",
+                    "contract",
+                    "implementation"
                 ],
-                "complaints": [
-                    {
-                        "id": "1111"
-                    },
-                    {
-                        "id": "1142"
-                    },
-                    {
-                        "id": "1150"
-                    }
+                "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/351815-adquisicion-mobiliarios-instituciones-edicativas-fonacide-1-1600693390.28074"
+            },
+            {
+                "date": "2020-09-11T11:09:36-04:00",
+                "tag": [
+                    "planning",
+                    "tender",
+                    "tenderUpdate",
+                    "award",
+                    "contract",
+                    "implementation"
                 ],
-                "contracts": [
-                    {
-                        "id": "LP-30001-19-170446"
-                    },
-                    {
-                        "id": "LP-30001-19-170445"
-                    },
-                    {
-                        "id": "LP-30001-19-170447"
-                    }
+                "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/351815-adquisicion-mobiliarios-instituciones-edicativas-fonacide-1-1599822576.39083"
+            },
+            {
+                "date": "2019-05-03T12:53:32-04:00",
+                "tag": [
+                    "planning",
+                    "tender",
+                    "tenderUpdate",
+                    "award",
+                    "contract",
+                    "implementation"
                 ],
-                "ocid": "ocds-03ad3f-347053-1",
-                "buyer": {
+                "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/351815-adquisicion-mobiliarios-instituciones-edicativas-fonacide-1-1556888012.24756"
+            }
+        ]
+    },
+    {
+        "compiledRelease": {
+            "tender": {
+                "procuringEntity": {
                     "name": "Municipalidad de Asunci\u00f3n",
                     "id": "DNCP-SICP-CODE-108"
+                },
+                "coveredBy": [
+                    "fonacide"
+                ],
+                "mainProcurementCategoryDetails": "Servicios - Servicios de ceremonial, gastronomico y funerarios",
+                "statusDetails": "Adjudicada",
+                "id": "347053-servicio-almuerzo-escolar-instituciones-educativas-1",
+                "title": "SERVICIO DE ALMUERZO ESCOLAR PARA INSTITUCIONES EDUCATIVAS",
+                "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
+                "tenderPeriod": {
+                    "durationInDays": 1,
+                    "endDate": "2018-12-11T09:00:00-04:00",
+                    "startDate": "2018-12-10T09:00:00-04:00"
                 }
             },
+            "date": "2019-10-28T16:53:32-04:00",
+            "planning": {
+                "identifier": "347053"
+            },
+            "awards": [
+                {
+                    "suppliers": [
+                        {
+                            "name": "PLASMA S.A. ",
+                            "id": "PY-RUC-80034440-5"
+                        }
+                    ],
+                    "id": "347053-plasma-s-a-5"
+                },
+                {
+                    "suppliers": [
+                        {
+                            "name": "PATRICIA ESTHER FERNANDEZ VALIENTE DE ALCARAZ",
+                            "id": "PY-RUC-1547085-7"
+                        }
+                    ],
+                    "id": "347053-patricia-esther-fernandez-valiente-alcaraz-4"
+                },
+                {
+                    "suppliers": [
+                        {
+                            "name": "AIDA AQUINO DE FARIAS",
+                            "id": "PY-RUC-411382-9"
+                        }
+                    ],
+                    "id": "347053-aida-aquino-farias-3"
+                }
+            ],
+            "complaints": [
+                {
+                    "id": "1111"
+                },
+                {
+                    "id": "1142"
+                },
+                {
+                    "id": "1150"
+                }
+            ],
+            "contracts": [
+                {
+                    "id": "LP-30001-19-170446"
+                },
+                {
+                    "id": "LP-30001-19-170445"
+                },
+                {
+                    "id": "LP-30001-19-170447"
+                }
+            ],
             "ocid": "ocds-03ad3f-347053-1",
-            "releases": [
-                {
-                    "date": "2019-10-28T16:53:32-04:00",
-                    "tag": [
-                        "planning",
-                        "tender",
-                        "tenderUpdate",
-                        "award",
-                        "contract",
-                        "implementation"
-                    ],
-                    "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/347053-servicio-almuerzo-escolar-instituciones-educativas-1-1572281612.213"
-                }
-            ]
+            "buyer": {
+                "name": "Municipalidad de Asunci\u00f3n",
+                "id": "DNCP-SICP-CODE-108"
+            }
         },
-        {
-            "compiledRelease": {
-                "tender": {
-                    "procuringEntity": {
-                        "name": "Municipalidad de Asunci\u00f3n",
-                        "id": "DNCP-SICP-CODE-108"
-                    },
-                    "coveredBy": [
-                        "fonacide"
-                    ],
-                    "mainProcurementCategoryDetails": "Bienes - Muebles y Enseres",
-                    "statusDetails": "Adjudicada",
-                    "id": "367620-adquisicion-mobiliario-instituciones-educativas-1",
-                    "title": "ADQUISICION DE MOBILIARIO PARA INSTITUCIONES EDUCATIVAS",
-                    "procurementMethodDetails": "Contrataci\u00f3n Directa",
-                    "tenderPeriod": {
-                        "durationInDays": 8,
-                        "endDate": "2019-08-09T09:45:00-04:00",
-                        "startDate": "2019-08-01T07:44:01-04:00"
-                    }
-                },
-                "date": "2019-10-16T11:45:21-04:00",
-                "planning": {
-                    "identifier": "367620"
-                },
-                "awards": [
-                    {
-                        "suppliers": [
-                            {
-                                "name": "NELIDA AIDEE MENDOZA RUFFINELLI",
-                                "id": "PY-RUC-1009022-3"
-                            }
-                        ],
-                        "id": "367620-nelida-aidee-mendoza-ruffinelli-1"
-                    }
+        "ocid": "ocds-03ad3f-347053-1",
+        "releases": [
+            {
+                "date": "2019-10-28T16:53:32-04:00",
+                "tag": [
+                    "planning",
+                    "tender",
+                    "tenderUpdate",
+                    "award",
+                    "contract",
+                    "implementation"
                 ],
-                "contracts": [
-                    {
-                        "id": "CD-30001-19-179285"
-                    }
-                ],
-                "ocid": "ocds-03ad3f-367620-1",
-                "buyer": {
+                "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/347053-servicio-almuerzo-escolar-instituciones-educativas-1-1572281612.213"
+            }
+        ]
+    },
+    {
+        "compiledRelease": {
+            "tender": {
+                "procuringEntity": {
                     "name": "Municipalidad de Asunci\u00f3n",
                     "id": "DNCP-SICP-CODE-108"
+                },
+                "coveredBy": [
+                    "fonacide"
+                ],
+                "mainProcurementCategoryDetails": "Bienes - Muebles y Enseres",
+                "statusDetails": "Adjudicada",
+                "id": "367620-adquisicion-mobiliario-instituciones-educativas-1",
+                "title": "ADQUISICION DE MOBILIARIO PARA INSTITUCIONES EDUCATIVAS",
+                "procurementMethodDetails": "Contrataci\u00f3n Directa",
+                "tenderPeriod": {
+                    "durationInDays": 8,
+                    "endDate": "2019-08-09T09:45:00-04:00",
+                    "startDate": "2019-08-01T07:44:01-04:00"
                 }
             },
+            "date": "2019-10-16T11:45:21-04:00",
+            "planning": {
+                "identifier": "367620"
+            },
+            "awards": [
+                {
+                    "suppliers": [
+                        {
+                            "name": "NELIDA AIDEE MENDOZA RUFFINELLI",
+                            "id": "PY-RUC-1009022-3"
+                        }
+                    ],
+                    "id": "367620-nelida-aidee-mendoza-ruffinelli-1"
+                }
+            ],
+            "contracts": [
+                {
+                    "id": "CD-30001-19-179285"
+                }
+            ],
             "ocid": "ocds-03ad3f-367620-1",
-            "releases": [
-                {
-                    "date": "2019-10-16T11:45:21-04:00",
-                    "tag": [
-                        "planning",
-                        "tender",
-                        "award",
-                        "contract",
-                        "implementation"
-                    ],
-                    "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/367620-adquisicion-mobiliario-instituciones-educativas-1-1571226321.41442"
-                }
-            ]
+            "buyer": {
+                "name": "Municipalidad de Asunci\u00f3n",
+                "id": "DNCP-SICP-CODE-108"
+            }
         },
-        {
-            "compiledRelease": {
-                "tender": {
-                    "procuringEntity": {
-                        "name": "Municipalidad de Asunci\u00f3n",
-                        "id": "DNCP-SICP-CODE-108"
-                    },
-                    "coveredBy": [
-                        "fonacide"
-                    ],
-                    "mainProcurementCategoryDetails": "Bienes - Muebles y Enseres",
-                    "statusDetails": "Adjudicada",
-                    "id": "353080-adquisicion-bienes-instituciones-ensenanza-1",
-                    "title": "ADQUISICI\u00d3N DE BIENES PARA INSTITUCIONES DE ENSE\u00d1ANZA",
-                    "procurementMethodDetails": "Contrataci\u00f3n Directa",
-                    "tenderPeriod": {
-                        "durationInDays": 23,
-                        "endDate": "2018-11-19T09:45:00-04:00",
-                        "startDate": "2018-10-26T15:39:43-04:00"
-                    }
-                },
-                "date": "2019-03-01T08:58:00-04:00",
-                "planning": {
-                    "identifier": "353080"
-                },
-                "awards": [
-                    {
-                        "suppliers": [
-                            {
-                                "name": "NELIDA AIDEE MENDOZA RUFFINELLI",
-                                "id": "PY-RUC-1009022-3"
-                            }
-                        ],
-                        "id": "353080-nelida-aidee-mendoza-ruffinelli-1"
-                    }
+        "ocid": "ocds-03ad3f-367620-1",
+        "releases": [
+            {
+                "date": "2019-10-16T11:45:21-04:00",
+                "tag": [
+                    "planning",
+                    "tender",
+                    "award",
+                    "contract",
+                    "implementation"
                 ],
-                "contracts": [
-                    {
-                        "id": "CD-30001-19-168914"
-                    }
-                ],
-                "ocid": "ocds-03ad3f-353080-1",
-                "buyer": {
+                "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/367620-adquisicion-mobiliario-instituciones-educativas-1-1571226321.41442"
+            }
+        ]
+    },
+    {
+        "compiledRelease": {
+            "tender": {
+                "procuringEntity": {
                     "name": "Municipalidad de Asunci\u00f3n",
                     "id": "DNCP-SICP-CODE-108"
+                },
+                "coveredBy": [
+                    "fonacide"
+                ],
+                "mainProcurementCategoryDetails": "Bienes - Muebles y Enseres",
+                "statusDetails": "Adjudicada",
+                "id": "353080-adquisicion-bienes-instituciones-ensenanza-1",
+                "title": "ADQUISICI\u00d3N DE BIENES PARA INSTITUCIONES DE ENSE\u00d1ANZA",
+                "procurementMethodDetails": "Contrataci\u00f3n Directa",
+                "tenderPeriod": {
+                    "durationInDays": 23,
+                    "endDate": "2018-11-19T09:45:00-04:00",
+                    "startDate": "2018-10-26T15:39:43-04:00"
                 }
             },
+            "date": "2019-03-01T08:58:00-04:00",
+            "planning": {
+                "identifier": "353080"
+            },
+            "awards": [
+                {
+                    "suppliers": [
+                        {
+                            "name": "NELIDA AIDEE MENDOZA RUFFINELLI",
+                            "id": "PY-RUC-1009022-3"
+                        }
+                    ],
+                    "id": "353080-nelida-aidee-mendoza-ruffinelli-1"
+                }
+            ],
+            "contracts": [
+                {
+                    "id": "CD-30001-19-168914"
+                }
+            ],
             "ocid": "ocds-03ad3f-353080-1",
-            "releases": [
-                {
-                    "date": "2019-03-01T08:58:00-04:00",
-                    "tag": [
-                        "planning",
-                        "tender",
-                        "award",
-                        "contract",
-                        "implementation"
-                    ],
-                    "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/353080-adquisicion-bienes-instituciones-ensenanza-1-1551430680.27201"
-                }
-            ]
+            "buyer": {
+                "name": "Municipalidad de Asunci\u00f3n",
+                "id": "DNCP-SICP-CODE-108"
+            }
         },
-        {
-            "compiledRelease": {
-                "tender": {
-                    "procuringEntity": {
-                        "name": "Municipalidad de Asunci\u00f3n",
-                        "id": "DNCP-SICP-CODE-108"
-                    },
-                    "coveredBy": [
-                        "fonacide"
-                    ],
-                    "mainProcurementCategoryDetails": "Bienes - Equipos, accesorios y programas computacionales, de oficina, educativos, de imprenta, de comunicaci\u00f3n y se\u00f1alamiento",
-                    "statusDetails": "Adjudicada",
-                    "id": "312659-adquisicion-mobiliarios-distintas-instituciones-educativas-traves-fonacide-1",
-                    "title": "ADQUISICION DE MOBILIARIOS PARA DISTINTAS INSTITUCIONES EDUCATIVAS A TRAVES DEL FONACIDE",
-                    "procurementMethodDetails": "Concurso de Ofertas",
-                    "tenderPeriod": {
-                        "durationInDays": 185,
-                        "endDate": "2017-04-25T15:00:00-04:00",
-                        "startDate": "2016-10-21T16:44:52-04:00"
-                    }
-                },
-                "date": "2017-11-27T14:30:22-04:00",
-                "planning": {
-                    "identifier": "312659"
-                },
-                "awards": [
-                    {
-                        "suppliers": [
-                            {
-                                "name": "NELIDA AIDEE MENDOZA RUFFINELLI",
-                                "id": "PY-RUC-1009022-3"
-                            }
-                        ],
-                        "id": "312659-nelida-aidee-mendoza-ruffinelli-1"
-                    }
+        "ocid": "ocds-03ad3f-353080-1",
+        "releases": [
+            {
+                "date": "2019-03-01T08:58:00-04:00",
+                "tag": [
+                    "planning",
+                    "tender",
+                    "award",
+                    "contract",
+                    "implementation"
                 ],
-                "contracts": [
-                    {
-                        "id": "CO-30001-17-148768"
-                    }
-                ],
-                "ocid": "ocds-03ad3f-312659-1",
-                "buyer": {
+                "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/353080-adquisicion-bienes-instituciones-ensenanza-1-1551430680.27201"
+            }
+        ]
+    },
+    {
+        "compiledRelease": {
+            "tender": {
+                "procuringEntity": {
                     "name": "Municipalidad de Asunci\u00f3n",
                     "id": "DNCP-SICP-CODE-108"
+                },
+                "coveredBy": [
+                    "fonacide"
+                ],
+                "mainProcurementCategoryDetails": "Bienes - Equipos, accesorios y programas computacionales, de oficina, educativos, de imprenta, de comunicaci\u00f3n y se\u00f1alamiento",
+                "statusDetails": "Adjudicada",
+                "id": "312659-adquisicion-mobiliarios-distintas-instituciones-educativas-traves-fonacide-1",
+                "title": "ADQUISICION DE MOBILIARIOS PARA DISTINTAS INSTITUCIONES EDUCATIVAS A TRAVES DEL FONACIDE",
+                "procurementMethodDetails": "Concurso de Ofertas",
+                "tenderPeriod": {
+                    "durationInDays": 185,
+                    "endDate": "2017-04-25T15:00:00-04:00",
+                    "startDate": "2016-10-21T16:44:52-04:00"
                 }
             },
+            "date": "2017-11-27T14:30:22-04:00",
+            "planning": {
+                "identifier": "312659"
+            },
+            "awards": [
+                {
+                    "suppliers": [
+                        {
+                            "name": "NELIDA AIDEE MENDOZA RUFFINELLI",
+                            "id": "PY-RUC-1009022-3"
+                        }
+                    ],
+                    "id": "312659-nelida-aidee-mendoza-ruffinelli-1"
+                }
+            ],
+            "contracts": [
+                {
+                    "id": "CO-30001-17-148768"
+                }
+            ],
             "ocid": "ocds-03ad3f-312659-1",
-            "releases": [
-                {
-                    "date": "2017-11-27T14:30:22-04:00",
-                    "tag": [
-                        "planning",
-                        "tender",
-                        "award",
-                        "contract",
-                        "implementation"
-                    ],
-                    "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/312659-adquisicion-mobiliarios-distintas-instituciones-educativas-traves-fonacide-1-1511793022"
-                }
-            ]
+            "buyer": {
+                "name": "Municipalidad de Asunci\u00f3n",
+                "id": "DNCP-SICP-CODE-108"
+            }
         },
-        {
-            "compiledRelease": {
-                "tender": {
-                    "procuringEntity": {
-                        "name": "Municipalidad de Asunci\u00f3n",
-                        "id": "DNCP-SICP-CODE-108"
-                    },
-                    "coveredBy": [
-                        "fonacide"
-                    ],
-                    "mainProcurementCategoryDetails": "Obras - Construcci\u00f3n, Restauraci\u00f3n, Reconstrucci\u00f3n o Remodelaci\u00f3n y Reparaci\u00f3n de Inmuebles",
-                    "statusDetails": "Adjudicada",
-                    "id": "300635-construccion-reparacion-ampliacion-colegio-nacional-emd-vicepresidente-domingo-franc-1",
-                    "title": "CONSTRUCCION, REPARACION Y AMPLIACION DEL COLEGIO NACIONAL EMD \"VICEPRESIDENTE DOMINGO FRANCISCO SANCHEZ\" Y COLEGIO NACIONAL EMD \"PABLO L. AVILA\"",
-                    "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
-                    "tenderPeriod": {
-                        "durationInDays": 30,
-                        "endDate": "2016-04-14T10:00:00-04:00",
-                        "startDate": "2016-03-14T16:50:50-04:00"
-                    }
-                },
-                "date": "2017-10-25T16:25:25-04:00",
-                "planning": {
-                    "identifier": "300635"
-                },
-                "awards": [
-                    {
-                        "suppliers": [
-                            {
-                                "name": "Constructora Alpe S.A.",
-                                "id": "PY-RUC-80085753-4"
-                            }
-                        ],
-                        "id": "300635-constructora-alpe-s-a-2"
-                    },
-                    {
-                        "suppliers": [
-                            {
-                                "name": "I.B.C. SOCIEDAD AN\u00d3NIMA",
-                                "id": "PY-RUC-80089161-9"
-                            }
-                        ],
-                        "id": "300635-ibc-s-a-3"
-                    }
+        "ocid": "ocds-03ad3f-312659-1",
+        "releases": [
+            {
+                "date": "2017-11-27T14:30:22-04:00",
+                "tag": [
+                    "planning",
+                    "tender",
+                    "award",
+                    "contract",
+                    "implementation"
                 ],
-                "contracts": [
-                    {
-                        "id": "LP-30001-16-124960"
-                    },
-                    {
-                        "id": "LP-30001-16-124961"
-                    }
-                ],
-                "ocid": "ocds-03ad3f-300635-1",
-                "buyer": {
+                "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/312659-adquisicion-mobiliarios-distintas-instituciones-educativas-traves-fonacide-1-1511793022"
+            }
+        ]
+    },
+    {
+        "compiledRelease": {
+            "tender": {
+                "procuringEntity": {
                     "name": "Municipalidad de Asunci\u00f3n",
                     "id": "DNCP-SICP-CODE-108"
+                },
+                "coveredBy": [
+                    "fonacide"
+                ],
+                "mainProcurementCategoryDetails": "Obras - Construcci\u00f3n, Restauraci\u00f3n, Reconstrucci\u00f3n o Remodelaci\u00f3n y Reparaci\u00f3n de Inmuebles",
+                "statusDetails": "Adjudicada",
+                "id": "300635-construccion-reparacion-ampliacion-colegio-nacional-emd-vicepresidente-domingo-franc-1",
+                "title": "CONSTRUCCION, REPARACION Y AMPLIACION DEL COLEGIO NACIONAL EMD \"VICEPRESIDENTE DOMINGO FRANCISCO SANCHEZ\" Y COLEGIO NACIONAL EMD \"PABLO L. AVILA\"",
+                "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
+                "tenderPeriod": {
+                    "durationInDays": 30,
+                    "endDate": "2016-04-14T10:00:00-04:00",
+                    "startDate": "2016-03-14T16:50:50-04:00"
                 }
             },
+            "date": "2017-10-25T16:25:25-04:00",
+            "planning": {
+                "identifier": "300635"
+            },
+            "awards": [
+                {
+                    "suppliers": [
+                        {
+                            "name": "Constructora Alpe S.A.",
+                            "id": "PY-RUC-80085753-4"
+                        }
+                    ],
+                    "id": "300635-constructora-alpe-s-a-2"
+                },
+                {
+                    "suppliers": [
+                        {
+                            "name": "I.B.C. SOCIEDAD AN\u00d3NIMA",
+                            "id": "PY-RUC-80089161-9"
+                        }
+                    ],
+                    "id": "300635-ibc-s-a-3"
+                }
+            ],
+            "contracts": [
+                {
+                    "id": "LP-30001-16-124960"
+                },
+                {
+                    "id": "LP-30001-16-124961"
+                }
+            ],
             "ocid": "ocds-03ad3f-300635-1",
-            "releases": [
-                {
-                    "date": "2017-10-25T16:25:25-04:00",
-                    "tag": [
-                        "tender",
-                        "award",
-                        "implementation",
-                        "contractAmendment",
-                        "planningUpdate"
-                    ],
-                    "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/300635-construccion-reparacion-ampliacion-colegio-nacional-emd-vicepresidente-domingo-franc-1-1508948725.662"
-                }
-            ]
+            "buyer": {
+                "name": "Municipalidad de Asunci\u00f3n",
+                "id": "DNCP-SICP-CODE-108"
+            }
         },
-        {
-            "compiledRelease": {
-                "tender": {
-                    "procuringEntity": {
-                        "name": "Municipalidad de Asunci\u00f3n",
-                        "id": "DNCP-SICP-CODE-108"
-                    },
-                    "coveredBy": [
-                        "fonacide"
-                    ],
-                    "mainProcurementCategoryDetails": "Obras - Construcci\u00f3n, Restauraci\u00f3n, Reconstrucci\u00f3n o Remodelaci\u00f3n y Reparaci\u00f3n de Inmuebles",
-                    "statusDetails": "Adjudicada",
-                    "id": "290341-construccion-reparacion-ampliacion-escuela-bas-n-6-col-nac-dr-j-g-rodriguez-francia-1",
-                    "title": "CONSTRUCCION, REPARACION Y AMPLIACION DE LA ESCUELA BAS. N\u00b0 6 Y COL.NAC. DR.J.G RODRIGUEZ DE FRANCIA\"",
-                    "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
-                    "tenderPeriod": {
-                        "durationInDays": 41,
-                        "endDate": "2015-06-01T10:00:00-04:00",
-                        "startDate": "2015-04-20T17:15:46-04:00"
-                    }
-                },
-                "date": "2017-08-10T10:47:07-04:00",
-                "planning": {
-                    "identifier": "290341"
-                },
-                "awards": [
-                    {
-                        "suppliers": [
-                            {
-                                "name": "OGA CONSTRUCCIONES S.A ",
-                                "id": "PY-RUC-80036211-0"
-                            }
-                        ],
-                        "id": "290341-oga-construcciones-s-a-1"
-                    }
+        "ocid": "ocds-03ad3f-300635-1",
+        "releases": [
+            {
+                "date": "2017-10-25T16:25:25-04:00",
+                "tag": [
+                    "tender",
+                    "award",
+                    "implementation",
+                    "contractAmendment",
+                    "planningUpdate"
                 ],
-                "contracts": [
-                    {
-                        "id": "LP-30001-15-112600"
-                    }
-                ],
-                "ocid": "ocds-03ad3f-290341-1",
-                "buyer": {
+                "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/300635-construccion-reparacion-ampliacion-colegio-nacional-emd-vicepresidente-domingo-franc-1-1508948725.662"
+            }
+        ]
+    },
+    {
+        "compiledRelease": {
+            "tender": {
+                "procuringEntity": {
                     "name": "Municipalidad de Asunci\u00f3n",
                     "id": "DNCP-SICP-CODE-108"
+                },
+                "coveredBy": [
+                    "fonacide"
+                ],
+                "mainProcurementCategoryDetails": "Obras - Construcci\u00f3n, Restauraci\u00f3n, Reconstrucci\u00f3n o Remodelaci\u00f3n y Reparaci\u00f3n de Inmuebles",
+                "statusDetails": "Adjudicada",
+                "id": "290341-construccion-reparacion-ampliacion-escuela-bas-n-6-col-nac-dr-j-g-rodriguez-francia-1",
+                "title": "CONSTRUCCION, REPARACION Y AMPLIACION DE LA ESCUELA BAS. N\u00b0 6 Y COL.NAC. DR.J.G RODRIGUEZ DE FRANCIA\"",
+                "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
+                "tenderPeriod": {
+                    "durationInDays": 41,
+                    "endDate": "2015-06-01T10:00:00-04:00",
+                    "startDate": "2015-04-20T17:15:46-04:00"
                 }
             },
+            "date": "2017-08-10T10:47:07-04:00",
+            "planning": {
+                "identifier": "290341"
+            },
+            "awards": [
+                {
+                    "suppliers": [
+                        {
+                            "name": "OGA CONSTRUCCIONES S.A ",
+                            "id": "PY-RUC-80036211-0"
+                        }
+                    ],
+                    "id": "290341-oga-construcciones-s-a-1"
+                }
+            ],
+            "contracts": [
+                {
+                    "id": "LP-30001-15-112600"
+                }
+            ],
             "ocid": "ocds-03ad3f-290341-1",
-            "releases": [
-                {
-                    "date": "2017-08-10T10:47:07-04:00",
-                    "tag": [
-                        "tender",
-                        "award",
-                        "implementation",
-                        "contractAmendment",
-                        "planningUpdate"
-                    ],
-                    "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/290341-construccion-reparacion-ampliacion-escuela-bas-n-6-col-nac-dr-j-g-rodriguez-francia-1-1502362027.523"
-                }
-            ]
+            "buyer": {
+                "name": "Municipalidad de Asunci\u00f3n",
+                "id": "DNCP-SICP-CODE-108"
+            }
         },
-        {
-            "compiledRelease": {
-                "tender": {
-                    "procuringEntity": {
-                        "name": "Municipalidad de Asunci\u00f3n",
-                        "id": "DNCP-SICP-CODE-108"
-                    },
-                    "coveredBy": [
-                        "fonacide"
-                    ],
-                    "mainProcurementCategoryDetails": "Obras - Construcci\u00f3n, Restauraci\u00f3n, Reconstrucci\u00f3n o Remodelaci\u00f3n y Reparaci\u00f3n de Inmuebles",
-                    "statusDetails": "Adjudicada",
-                    "id": "284419-mejoramiento-escuela-basica-n-660-san-francisco-san-blas-colegio-nacional",
-                    "title": "MEJORAMIENTO DE ESCUELA BASICA N\u00ba 660 \"SAN FRANCISCO Y SAN BLAS\" Y COLEGIO NACIONAL \"LAS RESIDENTAS\"",
-                    "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
-                    "tenderPeriod": {
-                        "durationInDays": 24,
-                        "endDate": "2015-02-26T10:00:00-04:00",
-                        "startDate": "2015-02-02T09:52:09-04:00"
-                    }
-                },
-                "date": "2016-12-09T15:51:19-04:00",
-                "planning": {
-                    "identifier": "284419"
-                },
-                "awards": [
-                    {
-                        "suppliers": [
-                            {
-                                "name": "CONSORCIO URBATEC I",
-                                "id": "PY-RUC-80089791-9"
-                            }
-                        ],
-                        "id": "284419-consorcio-urbatec-i-3"
-                    },
-                    {
-                        "suppliers": [
-                            {
-                                "name": "Ricardo de Jesus Arevalo Gonzalez",
-                                "id": "PY-RUC-609031-1"
-                            }
-                        ],
-                        "id": "284419-ricardo-jesus-arevalo-gonzalez-1"
-                    }
+        "ocid": "ocds-03ad3f-290341-1",
+        "releases": [
+            {
+                "date": "2017-08-10T10:47:07-04:00",
+                "tag": [
+                    "tender",
+                    "award",
+                    "implementation",
+                    "contractAmendment",
+                    "planningUpdate"
                 ],
-                "contracts": [
-                    {
-                        "id": "LP-30001-15-108888"
-                    },
-                    {
-                        "id": "LP-30001-15-109449"
-                    }
-                ],
-                "ocid": "ocds-03ad3f-284419-1",
-                "buyer": {
+                "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/290341-construccion-reparacion-ampliacion-escuela-bas-n-6-col-nac-dr-j-g-rodriguez-francia-1-1502362027.523"
+            }
+        ]
+    },
+    {
+        "compiledRelease": {
+            "tender": {
+                "procuringEntity": {
                     "name": "Municipalidad de Asunci\u00f3n",
                     "id": "DNCP-SICP-CODE-108"
+                },
+                "coveredBy": [
+                    "fonacide"
+                ],
+                "mainProcurementCategoryDetails": "Obras - Construcci\u00f3n, Restauraci\u00f3n, Reconstrucci\u00f3n o Remodelaci\u00f3n y Reparaci\u00f3n de Inmuebles",
+                "statusDetails": "Adjudicada",
+                "id": "284419-mejoramiento-escuela-basica-n-660-san-francisco-san-blas-colegio-nacional",
+                "title": "MEJORAMIENTO DE ESCUELA BASICA N\u00ba 660 \"SAN FRANCISCO Y SAN BLAS\" Y COLEGIO NACIONAL \"LAS RESIDENTAS\"",
+                "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
+                "tenderPeriod": {
+                    "durationInDays": 24,
+                    "endDate": "2015-02-26T10:00:00-04:00",
+                    "startDate": "2015-02-02T09:52:09-04:00"
                 }
             },
-            "ocid": "ocds-03ad3f-284419-1",
-            "releases": [
+            "date": "2016-12-09T15:51:19-04:00",
+            "planning": {
+                "identifier": "284419"
+            },
+            "awards": [
                 {
-                    "date": "2016-12-09T15:51:19-04:00",
-                    "tag": [
-                        "tender",
-                        "award",
-                        "implementation",
-                        "contractAmendment",
-                        "planningUpdate"
+                    "suppliers": [
+                        {
+                            "name": "CONSORCIO URBATEC I",
+                            "id": "PY-RUC-80089791-9"
+                        }
                     ],
-                    "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/284419-mejoramiento-escuela-basica-n-660-san-francisco-san-blas-colegio-nacional-1481298679.415"
+                    "id": "284419-consorcio-urbatec-i-3"
+                },
+                {
+                    "suppliers": [
+                        {
+                            "name": "Ricardo de Jesus Arevalo Gonzalez",
+                            "id": "PY-RUC-609031-1"
+                        }
+                    ],
+                    "id": "284419-ricardo-jesus-arevalo-gonzalez-1"
                 }
-            ]
-        }
-    ],
-    "pagination": {
-        "total_items": 8,
-        "total_pages": 1,
-        "current_page": 1,
-        "items_per_page": 100,
-        "total_in_page": 8
+            ],
+            "contracts": [
+                {
+                    "id": "LP-30001-15-108888"
+                },
+                {
+                    "id": "LP-30001-15-109449"
+                }
+            ],
+            "ocid": "ocds-03ad3f-284419-1",
+            "buyer": {
+                "name": "Municipalidad de Asunci\u00f3n",
+                "id": "DNCP-SICP-CODE-108"
+            }
+        },
+        "ocid": "ocds-03ad3f-284419-1",
+        "releases": [
+            {
+                "date": "2016-12-09T15:51:19-04:00",
+                "tag": [
+                    "tender",
+                    "award",
+                    "implementation",
+                    "contractAmendment",
+                    "planningUpdate"
+                ],
+                "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/releases/id/284419-mejoramiento-escuela-basica-n-660-san-francisco-san-blas-colegio-nacional-1481298679.415"
+            }
+        ]
     }
-}
+]
