@@ -35,7 +35,8 @@ def requestDNCP(configs: dict):
     data = requests.get(urlbase, headers = headers)
 
     if data.ok == True:
-        with open(pathlib.Path(__file__) / "awards.json", 'w') as file:
+        aux = configs['tender.procuringEntity.name']
+        with open(pathlib.Path(__file__).parent / f'{aux}.json', 'w') as file:
             json.dump(data.json(), file, indent=4)
         print("Done!")
     else:
