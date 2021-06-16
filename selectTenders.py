@@ -1,11 +1,8 @@
-import requests
-import json
 import pathlib
+import requests
 from requestAccessToken import *
 
-
-
-def requestDNCP(configs: dict, accTkn: str):
+def requestTenders(configs: dict, accTkn: str):
     '''This functions will make a request to search for all tenders in a given range'''
 
     
@@ -30,16 +27,23 @@ def requestDNCP(configs: dict, accTkn: str):
     data = requests.get(urlbase, headers = headers)
 
     if data.ok == True:
+        '''
         aux = configs['tender.procuringEntity.name']
         with open(pathlib.Path(__file__).parent / f'{aux}.json', 'w') as file:
             json.dump(data.json()['records'], file, indent=4)
         print("Done!")
+        '''
         return data.json()['records']
     else:
         raise Exception("Smth went wrong. Contact Elvis for help")
 
 
 if __name__ == "__main__":
+    import requests
+    import json
+    import pathlib
+    from requestAccessToken import *
+    
     configs = {
         'items_per_page':100,
         'fecha_desde':'2013-01-01',
@@ -55,4 +59,4 @@ if __name__ == "__main__":
         CS = file.read()
     accTkn = requestAccessToken(CK, CS)
 
-    requestDNCP(configs, accTkn)
+    requestTenders(configs, accTkn)

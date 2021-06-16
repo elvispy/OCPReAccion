@@ -1,12 +1,10 @@
-import requests
 import pathlib
+import requests
 from requestAccessToken import *
 
 def requestContracts(id: list, accTkn: str):
     '''This function will return the data of a contract given its id '''
 
-    
-    
     urlbase = f'https://www.contrataciones.gov.py/datos/api/v3/doc/contracts/{id}'
     headers = {'accept':'application/json', 'Authorization':f'Bearer {accTkn}'}
     data = requests.get(urlbase, headers = headers)
@@ -21,6 +19,10 @@ def requestContracts(id: list, accTkn: str):
 
 
 if __name__ == "__main__":
+    import requests
+    import pathlib
+    from requestAccessToken import *   
+
     mypath = pathlib.Path(__file__).parent
     #First, we obtain the access token
     with open(mypath / "CK.txt", 'r') as file:

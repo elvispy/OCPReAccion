@@ -1,13 +1,10 @@
-import requests
-
 import pathlib
+import requests
 from requestAccessToken import *
 
 def requestAwards(id: list, accTkn: str):
     '''This function will return the data of an award given its id '''
 
-    
-    
     urlbase = f'https://www.contrataciones.gov.py/datos/api/v3/doc/awards/{id}'
     headers = {'accept':'application/json', 'Authorization':f'Bearer {accTkn}'}
     data = requests.get(urlbase, headers = headers)
@@ -22,6 +19,10 @@ def requestAwards(id: list, accTkn: str):
 
 
 if __name__ == "__main__":
+    import requests
+    import pathlib
+    from requestAccessToken import *
+
     mypath = pathlib.Path(__file__).parent
     #First, we obtain the access token
     with open(mypath / "CK.txt", 'r') as file:
@@ -30,3 +31,5 @@ if __name__ == "__main__":
         CS = file.read()
     accTkn = requestAccessToken(CK, CS)
     requestAwards("351815-classic-mobles-sociedad-anonima-3", accTkn)
+
+    
