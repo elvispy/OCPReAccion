@@ -37,7 +37,7 @@ def requestDNCP(configs: dict):
     if data.ok == True:
         aux = configs['tender.procuringEntity.name']
         with open(pathlib.Path(__file__).parent / f'{aux}.json', 'w') as file:
-            json.dump(data.json(), file, indent=4)
+            json.dump(data.json()['records'], file, indent=4)
         print("Done!")
     else:
         raise Exception("Smth went wrong. Contact Elvis for help")
@@ -48,7 +48,7 @@ if __name__ == "__main__":
         'items_per_page':100,
         'fecha_desde':'2013-01-01',
         'tipo_fecha':'adjudicacion',
-        'tender.procuringEntity.name':"Municipalidad de Asunción",
+        'tender.procuringEntity.name':"Municipalidad de Encarnación",
         'contracts.implementation.financialProgress.breakdown.classifications.financiador':3
     }
 
