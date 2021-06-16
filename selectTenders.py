@@ -1,19 +1,14 @@
-
 import requests
 import json
 import pathlib
 from requestAccessToken import *
 
 
-def requestDNCP(configs: dict):
+
+def requestDNCP(configs: dict, accTkn: str):
     '''This functions will make a request to search for all tenders in a given range'''
 
-    #First, we obtain the access token
-    with open(pathlib.Path(__file__).parent / "CK.txt", 'r') as file:
-        CK = file.read()
-    with open(pathlib.Path(__file__).parent / "CS.txt", "r") as file:
-        CS = file.read()
-    accTkn = requestAccessToken(CK, CS)
+    
 
     #Now lets build the base URL with the configurations
     urlbase = 'https://www.contrataciones.gov.py/datos/api/v3/doc/search/processes?'
@@ -39,6 +34,7 @@ def requestDNCP(configs: dict):
         with open(pathlib.Path(__file__).parent / f'{aux}.json', 'w') as file:
             json.dump(data.json()['records'], file, indent=4)
         print("Done!")
+        return data.json()['records']
     else:
         raise Exception("Smth went wrong. Contact Elvis for help")
 
@@ -47,9 +43,16 @@ if __name__ == "__main__":
     configs = {
         'items_per_page':100,
         'fecha_desde':'2013-01-01',
-        'tipo_fecha':'adjudicacion',
+        'tipo_fecha':'fecha_release',
         'tender.procuringEntity.name':"Municipalidad de Encarnación",
         'contracts.implementation.financialProgress.breakdown.classifications.financiador':3
     }
 
-    requestDNCP(configs)
+    #First, we obtain the access token
+    with open(pathlib.Path(__file__).parent / "CK.txt", 'r') as file:
+        CK = file.read()
+    with open(pathlib.Path(__file__).parent / "CS.txt", "r") as file:
+        CS = file.read()
+    accTkn = requestAccessToken(CK, CS)
+
+    requestDNCP(configs, accTkn)
