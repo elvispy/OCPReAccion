@@ -44,9 +44,6 @@ def create_data(entity: str = "Municipalidad de Asunción", accTkn:str = accTkn)
     return final_data
 
 
-
-
-
 if __name__ == "__main__":
     create_data("Municipalidad de Asunción", accTkn)
     create_data("Municipalidad de Encarnación", accTkn)
