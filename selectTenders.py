@@ -35,7 +35,7 @@ def requestTenders(configs: dict, accTkn: str):
             if myreq.ok == True:
                 rec['compiledRelease']['tenderDatePublished'] = myreq.json()['tender']['datePublished']
             elif myreq.reason == 'TOO MANY REQUESTS':
-                print("Here!")
+
                 with open(pathlib.Path(__file__).parent / "CK.txt", 'r') as file:
                     CK = file.read()
                 with open(pathlib.Path(__file__).parent / "CS.txt", "r") as file:
@@ -48,7 +48,7 @@ def requestTenders(configs: dict, accTkn: str):
                 raise Exception(myreq.reason)
         return res
     elif data.reason == "TOO MANY REQUESTS":
-        print("Here!")
+
         with open(pathlib.Path(__file__).parent / "CK.txt", 'r') as file:
             CK = file.read()
         with open(pathlib.Path(__file__).parent / "CS.txt", "r") as file:

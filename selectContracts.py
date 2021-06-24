@@ -17,7 +17,7 @@ def requestContracts(id: list, accTkn: str):
         for el in data['contracts']:
             res[el['id']] = el
     elif data.reason == "TOO MANY REQUESTS":
-        print("Here!")
+
         with open(pathlib.Path(__file__).parent / "CK.txt", 'r') as file:
             CK = file.read()
         with open(pathlib.Path(__file__).parent / "CS.txt", "r") as file:
