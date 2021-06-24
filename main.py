@@ -11,7 +11,9 @@ with open(pathlib.Path(__file__).parent / "CK.txt", 'r') as file:
     CK = file.read()
 with open(pathlib.Path(__file__).parent / "CS.txt", "r") as file:
     CS = file.read()
+
 accTkn = requestAccessToken(CK, CS)
+
 
 def create_data(entity: str = "Municipalidad de Asunción", accTkn:str = accTkn)-> None:
     
@@ -29,9 +31,12 @@ def create_data(entity: str = "Municipalidad de Asunción", accTkn:str = accTkn)
 
     for record in data:
         record = record['compiledRelease']
+
         for contract in record['contracts']:
             contract_info = requestContracts(contract['id'], accTkn)
             contract_info['tender'] = record['tender']
+            contract_info['planning'] = record['planning']
+            contract_info['tenderDatePublished'] = record['tenderDatePublished']
             aw_ID = contract_info[contract['id']]['awardID']
             award_info = requestAwards(aw_ID, accTkn)
             contract_info['suppliers'] = award_info[aw_ID]['suppliers']
@@ -45,6 +50,6 @@ def create_data(entity: str = "Municipalidad de Asunción", accTkn:str = accTkn)
 
 
 if __name__ == "__main__":
-    create_data("Municipalidad de Asunción", accTkn)
+    #create_data("Municipalidad de Asunción", accTkn)
     create_data("Municipalidad de Encarnación", accTkn)
 

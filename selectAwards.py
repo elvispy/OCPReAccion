@@ -2,7 +2,7 @@ import pathlib
 import requests
 from requestAccessToken import *
 
-def requestAwards(id: list, accTkn: str):
+def requestAwards(id: str, accTkn: str):
     '''This function will return the data of an award given its id '''
 
     urlbase = f'https://www.contrataciones.gov.py/datos/api/v3/doc/awards/{id}'
@@ -13,8 +13,17 @@ def requestAwards(id: list, accTkn: str):
         res = {}
         for el in data['awards']:
             res[el['id']] = el
+    elif data.reason == "TOO MANY REQUESTS":
+        print("Here!")
+        with open(pathlib.Path(__file__).parent / "CK.txt", 'r') as file:
+            CK = file.read()
+        with open(pathlib.Path(__file__).parent / "CS.txt", "r") as file:
+            CS = file.read()
+        accTkn = requestAccessToken(CK, CS)
+        return requestAwards(id, accTkn)
     else:
-        raise Exception("Smth Went Wrong!")
+
+        raise Exception(data.reason)
     return res
 
 

@@ -1,5 +1,6 @@
 import pathlib
 import requests
+from requests.api import request
 from requestAccessToken import *
 
 def requestTenders(configs: dict, accTkn: str):
@@ -25,24 +26,40 @@ def requestTenders(configs: dict, accTkn: str):
     headers = {'accept':'application/json', 'Authorization':f'Bearer {accTkn}'}
 
     data = requests.get(urlbase, headers = headers)
-
     if data.ok == True:
-        '''
-        aux = configs['tender.procuringEntity.name']
-        with open(pathlib.Path(__file__).parent / f'{aux}.json', 'w') as file:
-            json.dump(data.json()['records'], file, indent=4)
-        print("Done!")
-        '''
-        return data.json()['records']
+        res = data.json()['records']
+        
+        for rec in res:
+            urlbase2 =  f"https://www.contrataciones.gov.py/datos/api/v3/doc/tender/{rec['compiledRelease']['planning']['identifier']}?sections=datePublished"
+            myreq = requests.get(urlbase2, headers = headers)
+            if myreq.ok == True:
+                rec['compiledRelease']['tenderDatePublished'] = myreq.json()['tender']['datePublished']
+            elif myreq.reason == 'TOO MANY REQUESTS':
+                print("Here!")
+                with open(pathlib.Path(__file__).parent / "CK.txt", 'r') as file:
+                    CK = file.read()
+                with open(pathlib.Path(__file__).parent / "CS.txt", "r") as file:
+                    CS = file.read()
+                accTkn = requestAccessToken(CK, CS)
+                urlbase2 =  f"https://www.contrataciones.gov.py/datos/api/v3/doc/tender/{rec['compiledRelease']['planning']['identifier']}?sections=datePublished"
+                myreq = requests.get(urlbase2, headers = headers)
+                rec['compiledRelease']['tenderDatePublished'] = myreq['tender']['datePublished']
+            else:
+                raise Exception(myreq.reason)
+        return res
+    elif data.reason == "TOO MANY REQUESTS":
+        print("Here!")
+        with open(pathlib.Path(__file__).parent / "CK.txt", 'r') as file:
+            CK = file.read()
+        with open(pathlib.Path(__file__).parent / "CS.txt", "r") as file:
+            CS = file.read()
+        accTkn = requestAccessToken(CK, CS)
+        return requestTenders(configs, accTkn)
     else:
-        raise Exception("Smth went wrong. Contact Elvis for help")
+        raise Exception(data.reason)
 
 
 if __name__ == "__main__":
-    import requests
-    import json
-    import pathlib
-    from requestAccessToken import *
     
     configs = {
         'items_per_page':100,
