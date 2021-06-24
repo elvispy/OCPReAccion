@@ -17,6 +17,7 @@ accTkn = requestAccessToken(CK, CS)
 
 def create_data(entity: str = "Municipalidad de Asunción", accTkn:str = accTkn)-> None:
     
+    # Configuraciones
     configs = {
         'items_per_page':1000,
         'fecha_desde':'2013-01-01',
