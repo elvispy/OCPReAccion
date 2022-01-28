@@ -35,7 +35,6 @@ def upload_data(fileName: str, key: str):
     values = list()
     for num, award in enumerate(data, start = 1):
         # Now we extract the data out of the json
-
         rescindido = "-"
         convocante = award["tender"]["procuringEntity"]["name"] 
         id_ocds = award['id_ocds']
