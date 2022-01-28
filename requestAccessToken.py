@@ -1,21 +1,38 @@
+from time import sleep
 import requests
 from base64 import b64encode
-import pathlib
-import time
-def requestAccessToken(CK, CS) -> str:
-    '''This function will return an access token to be used '''
+from pathlib import Path
 
-    file_path = pathlib.Path(__file__).parent / "access.bin"
-    '''
-    if pathlib.Path.exists(file_path):
-        with open(file_path, "r") as f:
+
+def requestAccessToken(CK: str = '', CS: str = '') -> str:
+    '''This function will return an access token to be used '''
+    # If there are not Consumer Keys or consumer Secrets, lets open them. 
+    mypath = Path(__file__).parent
+
+    if False and Path.is_file(mypath / "access.bin"):
+        with open(mypath / "access.bin", "r", encoding = 'utf-8') as f:
             accTkn = f.read()
+            if testAccessToken(accTkn):
+                return accTkn
+    elif not CK or not CS:
+        #First, we obtain the access token
+        with open(mypath / "CK.txt", 'r') as file:
+            CK = file.read()
+        with open(mypath / "CS.txt", "r") as file:
+            CS = file.read()
+    elif CK and CS:
+        # Write consumer secret and key if needed.
+        if Path.is_file(mypath / "CK.txt"):
+            raise Exception("Duplicating Consumer Key")
+        if Path.is_file(mypath / "CS.txt"):
+            raise Exception("Duplicating Consumer Secret")
         
-        if accTkn and testAccessToken(accTkn):
-            return accTkn
-        else:
-            pathlib.Path.unlink(file_path)
-    '''
+        with open(mypath / "CK.txt", "w", encoding = 'utf-8') as f:
+            f.write(CK)
+        with open(mypath / "CS.txt", "w", encoding = 'utf-8') as f:
+            f.write(CS)
+
+    # We need to decode them
     request_token_bytes = f'{CK}:{CS}'.encode('ascii')
     request_token = b64encode(request_token_bytes).decode('ascii')
 
@@ -24,17 +41,15 @@ def requestAccessToken(CK, CS) -> str:
     response = requests.post(oauth_url, json = payload)
     if response.status_code == 200:
         accTkn = response.json()['access_token']
-        #with open(file_path, 'w') as file:
-        #    file.write(accTkn)
+        with open(mypath / "access.bin", 'w') as file:
+            file.write(accTkn)
         return accTkn
     else:
         raise Exception(response.reason)
 
-
 def testAccessToken(accTkn:str) -> bool:
     '''This function will test whether the accessToken is still valid'''
-    return False
-    accTkn = 'Bearer ' + accTkn
+    # accTkn = ' ' + accTkn
     #Just an example
     urlbase = 'https://www.contrataciones.gov.py/datos/api/v3/doc/tender/383062-contratacion-servicios-alquiler-software-institucion-municipal-1'
     
@@ -45,12 +60,14 @@ def testAccessToken(accTkn:str) -> bool:
     except Exception as e:
         print(e)
         return False
-
-    return y.ok
-
+    try:
+        return y.ok
+    except KeyError:
+        return False
 
 if __name__ == "__main__":
-    CK = '829fd4c3-7119-4543-8a97-82b9d2311ef4'
-    CS = '3f794913-df7c-43de-9170-b8bd4d0d6004'
-    print(requestAccessToken(CK, CS))
+    print(requestAccessToken())
+    sleep(1)
+    print(requestAccessToken())
+
 

@@ -2945,6 +2945,126 @@
         ]
     },
     {
+        "LP-30094-18-155263": {
+            "awardID": "337540-yatyta-sa-empresa-construcciones-8",
+            "period": {
+                "durationInDays": 120
+            },
+            "documents": [
+                {
+                    "datePublished": "2018-05-07T15:01:53-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
+                    "language": "es",
+                    "id": "OVXRJxJVg6A=",
+                    "title": "formulario_yatyta_1525366383625.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/OVXRJxJVg6A%253D"
+                },
+                {
+                    "datePublished": "2018-05-07T15:01:53-04:00",
+                    "documentTypeDetails": "Orden de Compra o Contrato",
+                    "documentType": "contractSigned",
+                    "language": "es",
+                    "id": "+cG6jBOP8e4=",
+                    "title": "contrato_yatyta_1525366381779.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/%252BcG6jBOP8e4%253D"
+                }
+            ],
+            "implementation": {
+                "financialProgress": {
+                    "breakdown": [
+                        {
+                            "classifications": {
+                                "tipo_programa": "3",
+                                "objeto_gasto": "590",
+                                "sub_programa": "1",
+                                "fuente_financiamiento": "30",
+                                "entidad": "94",
+                                "programa": "3",
+                                "proyecto": "1",
+                                "departamento": "7",
+                                "nivel": "30",
+                                "anio": "2017",
+                                "financiador": "3",
+                                "cdp": "337540"
+                            },
+                            "period": {
+                                "endDate": "2017-12-31T00:00:00Z",
+                                "startDate": "2017-01-01T00:00:00Z"
+                            },
+                            "measures": {
+                                "monto_a_utilizar": "0"
+                            },
+                            "financialCode": "LP-30094-18-155263",
+                            "id": "2017/30/94/3/3/1/1/3/7/590/30/LP-30094-18-155263"
+                        },
+                        {
+                            "classifications": {
+                                "tipo_programa": "3",
+                                "objeto_gasto": "520",
+                                "sub_programa": "1",
+                                "fuente_financiamiento": "30",
+                                "entidad": "94",
+                                "programa": "3",
+                                "proyecto": "1",
+                                "departamento": "7",
+                                "nivel": "30",
+                                "anio": "2017",
+                                "financiador": "3",
+                                "cdp": "337540"
+                            },
+                            "period": {
+                                "endDate": "2017-12-31T00:00:00Z",
+                                "startDate": "2017-01-01T00:00:00Z"
+                            },
+                            "measures": {
+                                "monto_a_utilizar": "0"
+                            },
+                            "financialCode": "LP-30094-18-155263",
+                            "id": "2017/30/94/3/3/1/1/3/7/520/30/LP-30094-18-155263"
+                        }
+                    ]
+                }
+            },
+            "statusDetails": "Adjudicado",
+            "id": "LP-30094-18-155263",
+            "dateSigned": "2018-01-24T12:00:00-04:00",
+            "value": {
+                "amount": 1009238372,
+                "currency": "PYG"
+            },
+            "status": "active"
+        },
+        "tender": {
+            "procuringEntity": {
+                "name": "Municipalidad de Encarnaci\u00f3n",
+                "id": "DNCP-SICP-CODE-140"
+            },
+            "coveredBy": [
+                "fonacide"
+            ],
+            "mainProcurementCategoryDetails": "Obras - Construcci\u00f3n, Restauraci\u00f3n, Reconstrucci\u00f3n o Remodelaci\u00f3n y Reparaci\u00f3n de Inmuebles",
+            "statusDetails": "Adjudicada",
+            "id": "337540-construccion-reparacion-obras-infraestructura-diversas-instituciones-educativas-trav-1",
+            "title": " Construccion y Reparacion de Obras de Infraestructura en Diversas Instituciones Educativas a traves de Fondos del Fonacide",
+            "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
+            "tenderPeriod": {
+                "durationInDays": 26,
+                "endDate": "2017-12-13T10:00:00-04:00",
+                "startDate": "2017-11-16T16:07:28-04:00"
+            }
+        },
+        "planning": {
+            "identifier": "337540"
+        },
+        "tenderDatePublished": "2017-11-16T16:07:28-04:00",
+        "suppliers": [
+            {
+                "name": "YATYTA SA  EMPRESA DE CONSTRUCCIONES",
+                "id": "PY-RUC-80002900-3"
+            }
+        ]
+    },
+    {
         "LP-30094-18-155261": {
             "awardID": "337540-lucio-jose-antonio-amarilla-marchisio-11",
             "period": {
@@ -3095,31 +3215,6 @@
                         {
                             "classifications": {
                                 "tipo_programa": "3",
-                                "objeto_gasto": "520",
-                                "sub_programa": "1",
-                                "fuente_financiamiento": "30",
-                                "entidad": "94",
-                                "programa": "3",
-                                "proyecto": "1",
-                                "departamento": "7",
-                                "nivel": "30",
-                                "anio": "2017",
-                                "financiador": "3",
-                                "cdp": "337540"
-                            },
-                            "period": {
-                                "endDate": "2017-12-31T00:00:00Z",
-                                "startDate": "2017-01-01T00:00:00Z"
-                            },
-                            "measures": {
-                                "monto_a_utilizar": "0"
-                            },
-                            "financialCode": "LP-30094-18-155256",
-                            "id": "2017/30/94/3/3/1/1/3/7/520/30/LP-30094-18-155256"
-                        },
-                        {
-                            "classifications": {
-                                "tipo_programa": "3",
                                 "objeto_gasto": "590",
                                 "sub_programa": "1",
                                 "fuente_financiamiento": "30",
@@ -3141,6 +3236,31 @@
                             },
                             "financialCode": "LP-30094-18-155256",
                             "id": "2017/30/94/3/3/1/1/3/7/590/30/LP-30094-18-155256"
+                        },
+                        {
+                            "classifications": {
+                                "tipo_programa": "3",
+                                "objeto_gasto": "520",
+                                "sub_programa": "1",
+                                "fuente_financiamiento": "30",
+                                "entidad": "94",
+                                "programa": "3",
+                                "proyecto": "1",
+                                "departamento": "7",
+                                "nivel": "30",
+                                "anio": "2017",
+                                "financiador": "3",
+                                "cdp": "337540"
+                            },
+                            "period": {
+                                "endDate": "2017-12-31T00:00:00Z",
+                                "startDate": "2017-01-01T00:00:00Z"
+                            },
+                            "measures": {
+                                "monto_a_utilizar": "0"
+                            },
+                            "financialCode": "LP-30094-18-155256",
+                            "id": "2017/30/94/3/3/1/1/3/7/520/30/LP-30094-18-155256"
                         }
                     ]
                 }
@@ -3185,126 +3305,6 @@
         ]
     },
     {
-        "LP-30094-18-155258": {
-            "awardID": "337540-noelia-elisa-ledesma-ocampos-10",
-            "period": {
-                "durationInDays": 150
-            },
-            "documents": [
-                {
-                    "datePublished": "2018-05-07T14:59:23-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "2IUVuC0E80E=",
-                    "title": "formulario_impacto_1525366021952.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/2IUVuC0E80E%253D"
-                },
-                {
-                    "datePublished": "2018-05-07T14:59:23-04:00",
-                    "documentTypeDetails": "Orden de Compra o Contrato",
-                    "documentType": "contractSigned",
-                    "language": "es",
-                    "id": "iQ/h2TKsUbw=",
-                    "title": "contrato_impacto_1525366017419.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/iQ%252Fh2TKsUbw%253D"
-                }
-            ],
-            "implementation": {
-                "financialProgress": {
-                    "breakdown": [
-                        {
-                            "classifications": {
-                                "tipo_programa": "3",
-                                "objeto_gasto": "520",
-                                "sub_programa": "1",
-                                "fuente_financiamiento": "30",
-                                "entidad": "94",
-                                "programa": "3",
-                                "proyecto": "1",
-                                "departamento": "7",
-                                "nivel": "30",
-                                "anio": "2017",
-                                "financiador": "3",
-                                "cdp": "337540"
-                            },
-                            "period": {
-                                "endDate": "2017-12-31T00:00:00Z",
-                                "startDate": "2017-01-01T00:00:00Z"
-                            },
-                            "measures": {
-                                "monto_a_utilizar": "0"
-                            },
-                            "financialCode": "LP-30094-18-155258",
-                            "id": "2017/30/94/3/3/1/1/3/7/520/30/LP-30094-18-155258"
-                        },
-                        {
-                            "classifications": {
-                                "tipo_programa": "3",
-                                "objeto_gasto": "590",
-                                "sub_programa": "1",
-                                "fuente_financiamiento": "30",
-                                "entidad": "94",
-                                "programa": "3",
-                                "proyecto": "1",
-                                "departamento": "7",
-                                "nivel": "30",
-                                "anio": "2017",
-                                "financiador": "3",
-                                "cdp": "337540"
-                            },
-                            "period": {
-                                "endDate": "2017-12-31T00:00:00Z",
-                                "startDate": "2017-01-01T00:00:00Z"
-                            },
-                            "measures": {
-                                "monto_a_utilizar": "0"
-                            },
-                            "financialCode": "LP-30094-18-155258",
-                            "id": "2017/30/94/3/3/1/1/3/7/590/30/LP-30094-18-155258"
-                        }
-                    ]
-                }
-            },
-            "statusDetails": "Adjudicado",
-            "id": "LP-30094-18-155258",
-            "dateSigned": "2018-01-24T12:00:00-04:00",
-            "value": {
-                "amount": 653677296,
-                "currency": "PYG"
-            },
-            "status": "active"
-        },
-        "tender": {
-            "procuringEntity": {
-                "name": "Municipalidad de Encarnaci\u00f3n",
-                "id": "DNCP-SICP-CODE-140"
-            },
-            "coveredBy": [
-                "fonacide"
-            ],
-            "mainProcurementCategoryDetails": "Obras - Construcci\u00f3n, Restauraci\u00f3n, Reconstrucci\u00f3n o Remodelaci\u00f3n y Reparaci\u00f3n de Inmuebles",
-            "statusDetails": "Adjudicada",
-            "id": "337540-construccion-reparacion-obras-infraestructura-diversas-instituciones-educativas-trav-1",
-            "title": " Construccion y Reparacion de Obras de Infraestructura en Diversas Instituciones Educativas a traves de Fondos del Fonacide",
-            "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
-            "tenderPeriod": {
-                "durationInDays": 26,
-                "endDate": "2017-12-13T10:00:00-04:00",
-                "startDate": "2017-11-16T16:07:28-04:00"
-            }
-        },
-        "planning": {
-            "identifier": "337540"
-        },
-        "tenderDatePublished": "2017-11-16T16:07:28-04:00",
-        "suppliers": [
-            {
-                "name": "NOELIA ELISA LEDESMA OCAMPOS ",
-                "id": "PY-RUC-3005414-1"
-            }
-        ]
-    },
-    {
         "LP-30094-18-155268": {
             "awardID": "337540-aponte-latorre-sociedad-anonima-9",
             "period": {
@@ -3335,31 +3335,6 @@
                         {
                             "classifications": {
                                 "tipo_programa": "3",
-                                "objeto_gasto": "520",
-                                "sub_programa": "1",
-                                "fuente_financiamiento": "30",
-                                "entidad": "94",
-                                "programa": "3",
-                                "proyecto": "1",
-                                "departamento": "7",
-                                "nivel": "30",
-                                "anio": "2017",
-                                "financiador": "3",
-                                "cdp": "337540"
-                            },
-                            "period": {
-                                "endDate": "2017-12-31T00:00:00Z",
-                                "startDate": "2017-01-01T00:00:00Z"
-                            },
-                            "measures": {
-                                "monto_a_utilizar": "0"
-                            },
-                            "financialCode": "LP-30094-18-155268",
-                            "id": "2017/30/94/3/3/1/1/3/7/520/30/LP-30094-18-155268"
-                        },
-                        {
-                            "classifications": {
-                                "tipo_programa": "3",
                                 "objeto_gasto": "590",
                                 "sub_programa": "1",
                                 "fuente_financiamiento": "30",
@@ -3381,6 +3356,31 @@
                             },
                             "financialCode": "LP-30094-18-155268",
                             "id": "2017/30/94/3/3/1/1/3/7/590/30/LP-30094-18-155268"
+                        },
+                        {
+                            "classifications": {
+                                "tipo_programa": "3",
+                                "objeto_gasto": "520",
+                                "sub_programa": "1",
+                                "fuente_financiamiento": "30",
+                                "entidad": "94",
+                                "programa": "3",
+                                "proyecto": "1",
+                                "departamento": "7",
+                                "nivel": "30",
+                                "anio": "2017",
+                                "financiador": "3",
+                                "cdp": "337540"
+                            },
+                            "period": {
+                                "endDate": "2017-12-31T00:00:00Z",
+                                "startDate": "2017-01-01T00:00:00Z"
+                            },
+                            "measures": {
+                                "monto_a_utilizar": "0"
+                            },
+                            "financialCode": "LP-30094-18-155268",
+                            "id": "2017/30/94/3/3/1/1/3/7/520/30/LP-30094-18-155268"
                         }
                     ]
                 }
@@ -3421,6 +3421,126 @@
             {
                 "name": "APONTE LATORRE SOCIEDAD ANONIMA",
                 "id": "PY-RUC-80022538-4"
+            }
+        ]
+    },
+    {
+        "LP-30094-18-155258": {
+            "awardID": "337540-noelia-elisa-ledesma-ocampos-10",
+            "period": {
+                "durationInDays": 150
+            },
+            "documents": [
+                {
+                    "datePublished": "2018-05-07T14:59:23-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
+                    "language": "es",
+                    "id": "2IUVuC0E80E=",
+                    "title": "formulario_impacto_1525366021952.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/2IUVuC0E80E%253D"
+                },
+                {
+                    "datePublished": "2018-05-07T14:59:23-04:00",
+                    "documentTypeDetails": "Orden de Compra o Contrato",
+                    "documentType": "contractSigned",
+                    "language": "es",
+                    "id": "iQ/h2TKsUbw=",
+                    "title": "contrato_impacto_1525366017419.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/iQ%252Fh2TKsUbw%253D"
+                }
+            ],
+            "implementation": {
+                "financialProgress": {
+                    "breakdown": [
+                        {
+                            "classifications": {
+                                "tipo_programa": "3",
+                                "objeto_gasto": "590",
+                                "sub_programa": "1",
+                                "fuente_financiamiento": "30",
+                                "entidad": "94",
+                                "programa": "3",
+                                "proyecto": "1",
+                                "departamento": "7",
+                                "nivel": "30",
+                                "anio": "2017",
+                                "financiador": "3",
+                                "cdp": "337540"
+                            },
+                            "period": {
+                                "endDate": "2017-12-31T00:00:00Z",
+                                "startDate": "2017-01-01T00:00:00Z"
+                            },
+                            "measures": {
+                                "monto_a_utilizar": "0"
+                            },
+                            "financialCode": "LP-30094-18-155258",
+                            "id": "2017/30/94/3/3/1/1/3/7/590/30/LP-30094-18-155258"
+                        },
+                        {
+                            "classifications": {
+                                "tipo_programa": "3",
+                                "objeto_gasto": "520",
+                                "sub_programa": "1",
+                                "fuente_financiamiento": "30",
+                                "entidad": "94",
+                                "programa": "3",
+                                "proyecto": "1",
+                                "departamento": "7",
+                                "nivel": "30",
+                                "anio": "2017",
+                                "financiador": "3",
+                                "cdp": "337540"
+                            },
+                            "period": {
+                                "endDate": "2017-12-31T00:00:00Z",
+                                "startDate": "2017-01-01T00:00:00Z"
+                            },
+                            "measures": {
+                                "monto_a_utilizar": "0"
+                            },
+                            "financialCode": "LP-30094-18-155258",
+                            "id": "2017/30/94/3/3/1/1/3/7/520/30/LP-30094-18-155258"
+                        }
+                    ]
+                }
+            },
+            "statusDetails": "Adjudicado",
+            "id": "LP-30094-18-155258",
+            "dateSigned": "2018-01-24T12:00:00-04:00",
+            "value": {
+                "amount": 653677296,
+                "currency": "PYG"
+            },
+            "status": "active"
+        },
+        "tender": {
+            "procuringEntity": {
+                "name": "Municipalidad de Encarnaci\u00f3n",
+                "id": "DNCP-SICP-CODE-140"
+            },
+            "coveredBy": [
+                "fonacide"
+            ],
+            "mainProcurementCategoryDetails": "Obras - Construcci\u00f3n, Restauraci\u00f3n, Reconstrucci\u00f3n o Remodelaci\u00f3n y Reparaci\u00f3n de Inmuebles",
+            "statusDetails": "Adjudicada",
+            "id": "337540-construccion-reparacion-obras-infraestructura-diversas-instituciones-educativas-trav-1",
+            "title": " Construccion y Reparacion de Obras de Infraestructura en Diversas Instituciones Educativas a traves de Fondos del Fonacide",
+            "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
+            "tenderPeriod": {
+                "durationInDays": 26,
+                "endDate": "2017-12-13T10:00:00-04:00",
+                "startDate": "2017-11-16T16:07:28-04:00"
+            }
+        },
+        "planning": {
+            "identifier": "337540"
+        },
+        "tenderDatePublished": "2017-11-16T16:07:28-04:00",
+        "suppliers": [
+            {
+                "name": "NOELIA ELISA LEDESMA OCAMPOS ",
+                "id": "PY-RUC-3005414-1"
             }
         ]
     },
@@ -3545,126 +3665,6 @@
         ]
     },
     {
-        "LP-30094-18-155263": {
-            "awardID": "337540-yatyta-sa-empresa-construcciones-8",
-            "period": {
-                "durationInDays": 120
-            },
-            "documents": [
-                {
-                    "datePublished": "2018-05-07T15:01:53-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "OVXRJxJVg6A=",
-                    "title": "formulario_yatyta_1525366383625.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/OVXRJxJVg6A%253D"
-                },
-                {
-                    "datePublished": "2018-05-07T15:01:53-04:00",
-                    "documentTypeDetails": "Orden de Compra o Contrato",
-                    "documentType": "contractSigned",
-                    "language": "es",
-                    "id": "+cG6jBOP8e4=",
-                    "title": "contrato_yatyta_1525366381779.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/%252BcG6jBOP8e4%253D"
-                }
-            ],
-            "implementation": {
-                "financialProgress": {
-                    "breakdown": [
-                        {
-                            "classifications": {
-                                "tipo_programa": "3",
-                                "objeto_gasto": "520",
-                                "sub_programa": "1",
-                                "fuente_financiamiento": "30",
-                                "entidad": "94",
-                                "programa": "3",
-                                "proyecto": "1",
-                                "departamento": "7",
-                                "nivel": "30",
-                                "anio": "2017",
-                                "financiador": "3",
-                                "cdp": "337540"
-                            },
-                            "period": {
-                                "endDate": "2017-12-31T00:00:00Z",
-                                "startDate": "2017-01-01T00:00:00Z"
-                            },
-                            "measures": {
-                                "monto_a_utilizar": "0"
-                            },
-                            "financialCode": "LP-30094-18-155263",
-                            "id": "2017/30/94/3/3/1/1/3/7/520/30/LP-30094-18-155263"
-                        },
-                        {
-                            "classifications": {
-                                "tipo_programa": "3",
-                                "objeto_gasto": "590",
-                                "sub_programa": "1",
-                                "fuente_financiamiento": "30",
-                                "entidad": "94",
-                                "programa": "3",
-                                "proyecto": "1",
-                                "departamento": "7",
-                                "nivel": "30",
-                                "anio": "2017",
-                                "financiador": "3",
-                                "cdp": "337540"
-                            },
-                            "period": {
-                                "endDate": "2017-12-31T00:00:00Z",
-                                "startDate": "2017-01-01T00:00:00Z"
-                            },
-                            "measures": {
-                                "monto_a_utilizar": "0"
-                            },
-                            "financialCode": "LP-30094-18-155263",
-                            "id": "2017/30/94/3/3/1/1/3/7/590/30/LP-30094-18-155263"
-                        }
-                    ]
-                }
-            },
-            "statusDetails": "Adjudicado",
-            "id": "LP-30094-18-155263",
-            "dateSigned": "2018-01-24T12:00:00-04:00",
-            "value": {
-                "amount": 1009238372,
-                "currency": "PYG"
-            },
-            "status": "active"
-        },
-        "tender": {
-            "procuringEntity": {
-                "name": "Municipalidad de Encarnaci\u00f3n",
-                "id": "DNCP-SICP-CODE-140"
-            },
-            "coveredBy": [
-                "fonacide"
-            ],
-            "mainProcurementCategoryDetails": "Obras - Construcci\u00f3n, Restauraci\u00f3n, Reconstrucci\u00f3n o Remodelaci\u00f3n y Reparaci\u00f3n de Inmuebles",
-            "statusDetails": "Adjudicada",
-            "id": "337540-construccion-reparacion-obras-infraestructura-diversas-instituciones-educativas-trav-1",
-            "title": " Construccion y Reparacion de Obras de Infraestructura en Diversas Instituciones Educativas a traves de Fondos del Fonacide",
-            "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
-            "tenderPeriod": {
-                "durationInDays": 26,
-                "endDate": "2017-12-13T10:00:00-04:00",
-                "startDate": "2017-11-16T16:07:28-04:00"
-            }
-        },
-        "planning": {
-            "identifier": "337540"
-        },
-        "tenderDatePublished": "2017-11-16T16:07:28-04:00",
-        "suppliers": [
-            {
-                "name": "YATYTA SA  EMPRESA DE CONSTRUCCIONES",
-                "id": "PY-RUC-80002900-3"
-            }
-        ]
-    },
-    {
         "CO-30094-18-152895": {
             "awardID": "334224-project-ingenieria-s-r-l-5",
             "period": {
@@ -3673,20 +3673,20 @@
             "documents": [
                 {
                     "datePublished": "2018-03-01T13:54:04-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "rtqgRnJVQf8=",
-                    "title": "formulario_project_1519745044852.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/rtqgRnJVQf8%253D"
-                },
-                {
-                    "datePublished": "2018-03-01T13:54:04-04:00",
                     "documentTypeDetails": "Orden de Compra o Contrato",
                     "documentType": "contractSigned",
                     "language": "es",
                     "id": "xI4e+TeHYn4=",
                     "title": "contrato_project_1519745041331.pdf",
                     "url": "https://www.contrataciones.gov.py/documentos/download/contrato/xI4e%252BTeHYn4%253D"
+                },
+                {
+                    "datePublished": "2018-03-01T13:54:04-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
+                    "language": "es",
+                    "id": "rtqgRnJVQf8=",
+                    "title": "formulario_project_1519745044852.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/rtqgRnJVQf8%253D"
                 }
             ],
             "implementation": {
@@ -4648,20 +4648,20 @@
             "documents": [
                 {
                     "datePublished": "2017-12-07T09:47:20-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
+                    "language": "es",
+                    "id": "vn6BNWNEOfc=",
+                    "title": "nota_aclaracion_tecno_1512473172276.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/vn6BNWNEOfc%253D"
+                },
+                {
+                    "datePublished": "2017-12-07T09:47:20-04:00",
                     "documentTypeDetails": "Orden de Compra o Contrato",
                     "documentType": "contractSigned",
                     "language": "es",
                     "id": "P7XTvKw8Gi0=",
                     "title": "contrato_tecno_1512473164476.pdf",
                     "url": "https://www.contrataciones.gov.py/documentos/download/contrato/P7XTvKw8Gi0%253D"
-                },
-                {
-                    "datePublished": "2017-12-07T09:47:20-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "vn6BNWNEOfc=",
-                    "title": "nota_aclaracion_tecno_1512473172276.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/vn6BNWNEOfc%253D"
                 }
             ],
             "implementation": {
@@ -4791,31 +4791,6 @@
                             "classifications": {
                                 "tipo_programa": "3",
                                 "objeto_gasto": "520",
-                                "sub_programa": "1",
-                                "fuente_financiamiento": "30",
-                                "entidad": "94",
-                                "programa": "1",
-                                "proyecto": "1",
-                                "departamento": "7",
-                                "nivel": "30",
-                                "anio": "2017",
-                                "financiador": "1",
-                                "cdp": "332472"
-                            },
-                            "period": {
-                                "endDate": "2017-12-31T00:00:00Z",
-                                "startDate": "2017-01-01T00:00:00Z"
-                            },
-                            "measures": {
-                                "monto_a_utilizar": "478399857"
-                            },
-                            "financialCode": "CO-30094-17-148980",
-                            "id": "2017/30/94/3/1/1/1/1/7/520/30/CO-30094-17-148980"
-                        },
-                        {
-                            "classifications": {
-                                "tipo_programa": "3",
-                                "objeto_gasto": "520",
                                 "sub_programa": "2",
                                 "fuente_financiamiento": "30",
                                 "entidad": "94",
@@ -4836,6 +4811,31 @@
                             },
                             "financialCode": "CO-30094-17-148980",
                             "id": "2017/30/94/3/3/2/1/3/7/520/30/CO-30094-17-148980"
+                        },
+                        {
+                            "classifications": {
+                                "tipo_programa": "3",
+                                "objeto_gasto": "520",
+                                "sub_programa": "1",
+                                "fuente_financiamiento": "30",
+                                "entidad": "94",
+                                "programa": "1",
+                                "proyecto": "1",
+                                "departamento": "7",
+                                "nivel": "30",
+                                "anio": "2017",
+                                "financiador": "1",
+                                "cdp": "332472"
+                            },
+                            "period": {
+                                "endDate": "2017-12-31T00:00:00Z",
+                                "startDate": "2017-01-01T00:00:00Z"
+                            },
+                            "measures": {
+                                "monto_a_utilizar": "478399857"
+                            },
+                            "financialCode": "CO-30094-17-148980",
+                            "id": "2017/30/94/3/1/1/1/1/7/520/30/CO-30094-17-148980"
                         }
                     ]
                 }
@@ -5388,20 +5388,20 @@
             "documents": [
                 {
                     "datePublished": "2017-03-06T15:04:57-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
+                    "language": "es",
+                    "id": "A7MZwVC+C6c=",
+                    "title": "nota_aclaracion_corp__const__1488381706372.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/A7MZwVC%252BC6c%253D"
+                },
+                {
+                    "datePublished": "2017-03-06T15:04:57-04:00",
                     "documentTypeDetails": "Orden de Compra o Contrato",
                     "documentType": "contractSigned",
                     "language": "es",
                     "id": "CXdSqZwd6Ec=",
                     "title": "contrato_corporacion_constructiva_1488381703992.pdf",
                     "url": "https://www.contrataciones.gov.py/documentos/download/contrato/CXdSqZwd6Ec%253D"
-                },
-                {
-                    "datePublished": "2017-03-06T15:04:57-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "A7MZwVC+C6c=",
-                    "title": "nota_aclaracion_corp__const__1488381706372.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/A7MZwVC%252BC6c%253D"
                 }
             ],
             "implementation": {
@@ -5991,6 +5991,14 @@
             "documents": [
                 {
                     "datePublished": "2016-12-28T16:46:59-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
+                    "language": "es",
+                    "id": "NmHpoJoXO0A=",
+                    "title": "nota_abono_1482509071016.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/NmHpoJoXO0A%253D"
+                },
+                {
+                    "datePublished": "2016-12-28T16:46:59-04:00",
                     "documentTypeDetails": "Nota de Observacion",
                     "language": "es",
                     "id": "cKfaB0P/rZc=",
@@ -6005,14 +6013,6 @@
                     "id": "1gD8NG0lsmk=",
                     "title": "nota_abono_1482509066055.pdf",
                     "url": "https://www.contrataciones.gov.py/documentos/download/contrato/1gD8NG0lsmk%253D"
-                },
-                {
-                    "datePublished": "2016-12-28T16:46:59-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "NmHpoJoXO0A=",
-                    "title": "nota_abono_1482509071016.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/NmHpoJoXO0A%253D"
                 }
             ],
             "implementation": {
@@ -6332,31 +6332,6 @@
                         {
                             "classifications": {
                                 "tipo_programa": "3",
-                                "objeto_gasto": "590",
-                                "sub_programa": "0",
-                                "fuente_financiamiento": "30",
-                                "entidad": "94",
-                                "programa": "0",
-                                "proyecto": "0",
-                                "departamento": "7",
-                                "nivel": "30",
-                                "anio": "2016",
-                                "financiador": "3",
-                                "cdp": "314497"
-                            },
-                            "period": {
-                                "endDate": "2016-12-31T00:00:00Z",
-                                "startDate": "2016-01-01T00:00:00Z"
-                            },
-                            "measures": {
-                                "monto_a_utilizar": "121076450"
-                            },
-                            "financialCode": "LP-30094-16-131733",
-                            "id": "2016/30/94/3/0/0/0/3/7/590/30/LP-30094-16-131733"
-                        },
-                        {
-                            "classifications": {
-                                "tipo_programa": "3",
                                 "objeto_gasto": "520",
                                 "sub_programa": "0",
                                 "fuente_financiamiento": "30",
@@ -6378,6 +6353,31 @@
                             },
                             "financialCode": "LP-30094-16-131733",
                             "id": "2016/30/94/3/0/0/0/3/7/520/30/LP-30094-16-131733"
+                        },
+                        {
+                            "classifications": {
+                                "tipo_programa": "3",
+                                "objeto_gasto": "590",
+                                "sub_programa": "0",
+                                "fuente_financiamiento": "30",
+                                "entidad": "94",
+                                "programa": "0",
+                                "proyecto": "0",
+                                "departamento": "7",
+                                "nivel": "30",
+                                "anio": "2016",
+                                "financiador": "3",
+                                "cdp": "314497"
+                            },
+                            "period": {
+                                "endDate": "2016-12-31T00:00:00Z",
+                                "startDate": "2016-01-01T00:00:00Z"
+                            },
+                            "measures": {
+                                "monto_a_utilizar": "121076450"
+                            },
+                            "financialCode": "LP-30094-16-131733",
+                            "id": "2016/30/94/3/0/0/0/3/7/590/30/LP-30094-16-131733"
                         }
                     ]
                 }
@@ -7088,6 +7088,101 @@
         ]
     },
     {
+        "LP-30094-15-108427": {
+            "awardID": "287132-keops-group-s-a-1",
+            "period": {
+                "durationInDays": 180
+            },
+            "documents": [
+                {
+                    "datePublished": "2015-07-01T11:42:41-04:00",
+                    "documentTypeDetails": "Orden de Compra o Contrato",
+                    "documentType": "contractSigned",
+                    "language": "es",
+                    "id": "j/g5fGo5shM=",
+                    "title": "contrato_1435681918710.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/j%252Fg5fGo5shM%253D"
+                },
+                {
+                    "datePublished": "2015-07-01T11:42:41-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
+                    "language": "es",
+                    "id": "nWZsdblA5oM=",
+                    "title": "nota_aclaracion_1435681880854.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/nWZsdblA5oM%253D"
+                }
+            ],
+            "implementation": {
+                "financialProgress": {
+                    "breakdown": [
+                        {
+                            "classifications": {
+                                "tipo_programa": "3",
+                                "objeto_gasto": "840",
+                                "sub_programa": "0",
+                                "fuente_financiamiento": "30",
+                                "entidad": "94",
+                                "programa": "0",
+                                "proyecto": "0",
+                                "departamento": "7",
+                                "nivel": "30",
+                                "anio": "2015",
+                                "financiador": "3",
+                                "cdp": "287132"
+                            },
+                            "period": {
+                                "endDate": "2015-12-31T00:00:00Z",
+                                "startDate": "2015-01-01T00:00:00Z"
+                            },
+                            "measures": {
+                                "monto_a_utilizar": "1196316000"
+                            },
+                            "financialCode": "LP-30094-15-108427",
+                            "id": "2015/30/94/3/0/0/0/3/7/840/30/LP-30094-15-108427"
+                        }
+                    ]
+                }
+            },
+            "statusDetails": "Adjudicado",
+            "id": "LP-30094-15-108427",
+            "dateSigned": "2015-06-29T12:00:00-04:00",
+            "value": {
+                "amount": 1196316000,
+                "currency": "PYG"
+            },
+            "status": "active"
+        },
+        "tender": {
+            "procuringEntity": {
+                "name": "Municipalidad de Encarnaci\u00f3n",
+                "id": "DNCP-SICP-CODE-140"
+            },
+            "coveredBy": [
+                "fonacide"
+            ],
+            "mainProcurementCategoryDetails": "Servicios - Servicios de ceremonial, gastronomico y funerarios",
+            "statusDetails": "Adjudicada",
+            "id": "287132-almuerzo-escolar-distintas-instituciones-educativas-distrito-encarnacion-traves-fond-1",
+            "title": "Almuerzo Escolar Para Distintas Instituciones Educativas del Distrito de Encarnacion a Traves de Fondos del Fonacide",
+            "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
+            "tenderPeriod": {
+                "durationInDays": 61,
+                "endDate": "2015-05-20T10:00:00-04:00",
+                "startDate": "2015-03-20T09:47:02-04:00"
+            }
+        },
+        "planning": {
+            "identifier": "287132"
+        },
+        "tenderDatePublished": "2015-03-20T09:47:02-04:00",
+        "suppliers": [
+            {
+                "name": "KEOPS GROUP S.A.",
+                "id": "PY-RUC-80068715-9"
+            }
+        ]
+    },
+    {
         "CO-30094-15-111586": {
             "awardID": "295298-amadeo-vidal-vinader-ruoti-1",
             "period": {
@@ -7279,28 +7374,27 @@
         ]
     },
     {
-        "LP-30094-15-108427": {
-            "awardID": "287132-keops-group-s-a-1",
+        "LP-30094-14-90447": {
+            "awardID": "268331-lakmi-s-a-1",
             "period": {
-                "durationInDays": 180
+                "durationInDays": 72
             },
             "documents": [
                 {
-                    "datePublished": "2015-07-01T11:42:41-04:00",
+                    "datePublished": "2014-12-17T16:09:45-04:00",
                     "documentTypeDetails": "Nota de Aclaraci\u00f3n",
                     "language": "es",
-                    "id": "nWZsdblA5oM=",
-                    "title": "nota_aclaracion_1435681880854.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/nWZsdblA5oM%253D"
+                    "id": "At7gJ0Q6/ys=",
+                    "title": "nota_aclaracion_1404994255629.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/At7gJ0Q6%252Fys%253D"
                 },
                 {
-                    "datePublished": "2015-07-01T11:42:41-04:00",
-                    "documentTypeDetails": "Orden de Compra o Contrato",
-                    "documentType": "contractSigned",
+                    "datePublished": "2014-12-17T16:09:45-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
                     "language": "es",
-                    "id": "j/g5fGo5shM=",
-                    "title": "contrato_1435681918710.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/j%252Fg5fGo5shM%253D"
+                    "id": "VYtPmWmZ2+g=",
+                    "title": "nota_aclaracion_1404994255629.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/VYtPmWmZ2%252Bg%253D"
                 }
             ],
             "implementation": {
@@ -7310,35 +7404,35 @@
                             "classifications": {
                                 "tipo_programa": "3",
                                 "objeto_gasto": "840",
-                                "sub_programa": "0",
+                                "sub_programa": "1",
                                 "fuente_financiamiento": "30",
                                 "entidad": "94",
                                 "programa": "0",
                                 "proyecto": "0",
                                 "departamento": "7",
                                 "nivel": "30",
-                                "anio": "2015",
+                                "anio": "2014",
                                 "financiador": "3",
-                                "cdp": "287132"
+                                "cdp": "268331"
                             },
                             "period": {
-                                "endDate": "2015-12-31T00:00:00Z",
-                                "startDate": "2015-01-01T00:00:00Z"
+                                "endDate": "2014-12-31T00:00:00Z",
+                                "startDate": "2014-01-01T00:00:00Z"
                             },
                             "measures": {
-                                "monto_a_utilizar": "1196316000"
+                                "monto_a_utilizar": "1029500640"
                             },
-                            "financialCode": "LP-30094-15-108427",
-                            "id": "2015/30/94/3/0/0/0/3/7/840/30/LP-30094-15-108427"
+                            "financialCode": "LP-30094-14-90447",
+                            "id": "2014/30/94/3/0/1/0/3/7/840/30/LP-30094-14-90447"
                         }
                     ]
                 }
             },
             "statusDetails": "Adjudicado",
-            "id": "LP-30094-15-108427",
-            "dateSigned": "2015-06-29T12:00:00-04:00",
+            "id": "LP-30094-14-90447",
+            "dateSigned": "2014-06-24T12:00:00-04:00",
             "value": {
-                "amount": 1196316000,
+                "amount": 1029500640,
                 "currency": "PYG"
             },
             "status": "active"
@@ -7353,23 +7447,23 @@
             ],
             "mainProcurementCategoryDetails": "Servicios - Servicios de ceremonial, gastronomico y funerarios",
             "statusDetails": "Adjudicada",
-            "id": "287132-almuerzo-escolar-distintas-instituciones-educativas-distrito-encarnacion-traves-fond-1",
-            "title": "Almuerzo Escolar Para Distintas Instituciones Educativas del Distrito de Encarnacion a Traves de Fondos del Fonacide",
+            "id": "268331-almuerzo-escolar-fonacide",
+            "title": "Almuerzo Escolar - Fonacide",
             "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
             "tenderPeriod": {
-                "durationInDays": 61,
-                "endDate": "2015-05-20T10:00:00-04:00",
-                "startDate": "2015-03-20T09:47:02-04:00"
+                "durationInDays": 23,
+                "endDate": "2014-05-16T10:00:00-04:00",
+                "startDate": "2014-04-22T16:00:04-04:00"
             }
         },
         "planning": {
-            "identifier": "287132"
+            "identifier": "268331"
         },
-        "tenderDatePublished": "2015-03-20T09:47:02-04:00",
+        "tenderDatePublished": "2014-04-22T16:00:04-04:00",
         "suppliers": [
             {
-                "name": "KEOPS GROUP S.A.",
-                "id": "PY-RUC-80068715-9"
+                "name": "LAKMI S.A.",
+                "id": "PY-RUC-80054786-1"
             }
         ]
     },
@@ -7477,20 +7571,20 @@
             "documents": [
                 {
                     "datePublished": "2014-12-26T14:29:52-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
+                    "language": "es",
+                    "id": "6yuSSlla4Bo=",
+                    "title": "nota_de_aclaracion_1419609110030.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/6yuSSlla4Bo%253D"
+                },
+                {
+                    "datePublished": "2014-12-26T14:29:52-04:00",
                     "documentTypeDetails": "Orden de Compra o Contrato",
                     "documentType": "contractSigned",
                     "language": "es",
                     "id": "IXGta6E0bvY=",
                     "title": "contrato_1419609044783.pdf",
                     "url": "https://www.contrataciones.gov.py/documentos/download/contrato/IXGta6E0bvY%253D"
-                },
-                {
-                    "datePublished": "2014-12-26T14:29:52-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "6yuSSlla4Bo=",
-                    "title": "nota_de_aclaracion_1419609110030.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/6yuSSlla4Bo%253D"
                 }
             ],
             "implementation": {
@@ -7583,17 +7677,17 @@
                     "datePublished": "2014-12-30T10:50:26-04:00",
                     "documentTypeDetails": "Nota de Aclaraci\u00f3n",
                     "language": "es",
-                    "id": "4AN8OXisVYg=",
-                    "title": "nota_de_aclaracion_1419942300157.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/4AN8OXisVYg%253D"
+                    "id": "cla+wnZHV64=",
+                    "title": "nota_de_aclaracion_1419602422869.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/cla%252BwnZHV64%253D"
                 },
                 {
                     "datePublished": "2014-12-30T10:50:26-04:00",
                     "documentTypeDetails": "Nota de Aclaraci\u00f3n",
                     "language": "es",
-                    "id": "cla+wnZHV64=",
-                    "title": "nota_de_aclaracion_1419602422869.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/cla%252BwnZHV64%253D"
+                    "id": "4AN8OXisVYg=",
+                    "title": "nota_de_aclaracion_1419942300157.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/4AN8OXisVYg%253D"
                 }
             ],
             "implementation": {
@@ -8063,20 +8157,20 @@
             "documents": [
                 {
                     "datePublished": "2014-12-26T10:04:44-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
+                    "language": "es",
+                    "id": "3HHIxIn767Y=",
+                    "title": "nota_de_aclaracion_san_blas_1419432603826.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/3HHIxIn767Y%253D"
+                },
+                {
+                    "datePublished": "2014-12-26T10:04:44-04:00",
                     "documentTypeDetails": "Orden de Compra o Contrato",
                     "documentType": "contractSigned",
                     "language": "es",
                     "id": "jbflbAxKvD4=",
                     "title": "contrato_san_blas_1419432611925.pdf",
                     "url": "https://www.contrataciones.gov.py/documentos/download/contrato/jbflbAxKvD4%253D"
-                },
-                {
-                    "datePublished": "2014-12-26T10:04:44-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "3HHIxIn767Y=",
-                    "title": "nota_de_aclaracion_san_blas_1419432603826.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/3HHIxIn767Y%253D"
                 }
             ],
             "implementation": {
@@ -8423,20 +8517,20 @@
             "documents": [
                 {
                     "datePublished": "2014-12-24T10:16:02-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
+                    "language": "es",
+                    "id": "WPXnJulKu9o=",
+                    "title": "nota_de_aclaracion_1419418214980.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/WPXnJulKu9o%253D"
+                },
+                {
+                    "datePublished": "2014-12-24T10:16:02-04:00",
                     "documentTypeDetails": "Orden de Compra o Contrato",
                     "documentType": "contractSigned",
                     "language": "es",
                     "id": "gKP9uQ9uIOY=",
                     "title": "contrato_1419418173531.pdf",
                     "url": "https://www.contrataciones.gov.py/documentos/download/contrato/gKP9uQ9uIOY%253D"
-                },
-                {
-                    "datePublished": "2014-12-24T10:16:02-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "WPXnJulKu9o=",
-                    "title": "nota_de_aclaracion_1419418214980.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/WPXnJulKu9o%253D"
                 }
             ],
             "implementation": {
@@ -9080,100 +9174,6 @@
         ]
     },
     {
-        "LP-30094-14-90447": {
-            "awardID": "268331-lakmi-s-a-1",
-            "period": {
-                "durationInDays": 72
-            },
-            "documents": [
-                {
-                    "datePublished": "2014-12-17T16:09:45-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "VYtPmWmZ2+g=",
-                    "title": "nota_aclaracion_1404994255629.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/VYtPmWmZ2%252Bg%253D"
-                },
-                {
-                    "datePublished": "2014-12-17T16:09:45-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "At7gJ0Q6/ys=",
-                    "title": "nota_aclaracion_1404994255629.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/At7gJ0Q6%252Fys%253D"
-                }
-            ],
-            "implementation": {
-                "financialProgress": {
-                    "breakdown": [
-                        {
-                            "classifications": {
-                                "tipo_programa": "3",
-                                "objeto_gasto": "840",
-                                "sub_programa": "1",
-                                "fuente_financiamiento": "30",
-                                "entidad": "94",
-                                "programa": "0",
-                                "proyecto": "0",
-                                "departamento": "7",
-                                "nivel": "30",
-                                "anio": "2014",
-                                "financiador": "3",
-                                "cdp": "268331"
-                            },
-                            "period": {
-                                "endDate": "2014-12-31T00:00:00Z",
-                                "startDate": "2014-01-01T00:00:00Z"
-                            },
-                            "measures": {
-                                "monto_a_utilizar": "1029500640"
-                            },
-                            "financialCode": "LP-30094-14-90447",
-                            "id": "2014/30/94/3/0/1/0/3/7/840/30/LP-30094-14-90447"
-                        }
-                    ]
-                }
-            },
-            "statusDetails": "Adjudicado",
-            "id": "LP-30094-14-90447",
-            "dateSigned": "2014-06-24T12:00:00-04:00",
-            "value": {
-                "amount": 1029500640,
-                "currency": "PYG"
-            },
-            "status": "active"
-        },
-        "tender": {
-            "procuringEntity": {
-                "name": "Municipalidad de Encarnaci\u00f3n",
-                "id": "DNCP-SICP-CODE-140"
-            },
-            "coveredBy": [
-                "fonacide"
-            ],
-            "mainProcurementCategoryDetails": "Servicios - Servicios de ceremonial, gastronomico y funerarios",
-            "statusDetails": "Adjudicada",
-            "id": "268331-almuerzo-escolar-fonacide",
-            "title": "Almuerzo Escolar - Fonacide",
-            "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
-            "tenderPeriod": {
-                "durationInDays": 23,
-                "endDate": "2014-05-16T10:00:00-04:00",
-                "startDate": "2014-04-22T16:00:04-04:00"
-            }
-        },
-        "planning": {
-            "identifier": "268331"
-        },
-        "tenderDatePublished": "2014-04-22T16:00:04-04:00",
-        "suppliers": [
-            {
-                "name": "LAKMI S.A.",
-                "id": "PY-RUC-80054786-1"
-            }
-        ]
-    },
-    {
         "CD-30094-14-87728": {
             "awardID": "276710-grupo-s-r-l-1",
             "period": {
@@ -9265,6 +9265,109 @@
             {
                 "name": "GRUPO A + S.R.L.",
                 "id": "PY-RUC-80049470-9"
+            }
+        ]
+    },
+    {
+        "LP-30094-13-80682": {
+            "awardID": "261883-juan-alberto-rodriguez-lezcano-5",
+            "period": {
+                "durationInDays": 120
+            },
+            "documents": [
+                {
+                    "datePublished": "2013-11-28T10:07:07-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
+                    "language": "es",
+                    "id": "l/JqYSGGNP4=",
+                    "title": "nota_aclaracion___1385549855945.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/l%252FJqYSGGNP4%253D"
+                },
+                {
+                    "datePublished": "2013-11-28T10:07:07-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
+                    "language": "es",
+                    "id": "PsF6lkUvmqA=",
+                    "title": "nota_aclaracion___1384516521108.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/PsF6lkUvmqA%253D"
+                },
+                {
+                    "datePublished": "2013-11-28T10:07:07-04:00",
+                    "documentTypeDetails": "Orden de Compra o Contrato",
+                    "documentType": "contractSigned",
+                    "language": "es",
+                    "id": "LdacH8sAIF0=",
+                    "title": "contrato_jr_1385549867699.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/LdacH8sAIF0%253D"
+                }
+            ],
+            "implementation": {
+                "financialProgress": {
+                    "breakdown": [
+                        {
+                            "classifications": {
+                                "tipo_programa": "2",
+                                "objeto_gasto": "520",
+                                "sub_programa": "1",
+                                "fuente_financiamiento": "30",
+                                "entidad": "94",
+                                "programa": "0",
+                                "proyecto": "0",
+                                "departamento": "7",
+                                "nivel": "30",
+                                "anio": "2013",
+                                "financiador": "3",
+                                "cdp": "261883"
+                            },
+                            "period": {
+                                "endDate": "2013-12-31T00:00:00Z",
+                                "startDate": "2013-01-01T00:00:00Z"
+                            },
+                            "measures": {
+                                "monto_a_utilizar": "221507616"
+                            },
+                            "financialCode": "LP-30094-13-80682",
+                            "id": "2013/30/94/2/0/1/0/3/7/520/30/LP-30094-13-80682"
+                        }
+                    ]
+                }
+            },
+            "statusDetails": "Adjudicado",
+            "id": "LP-30094-13-80682",
+            "dateSigned": "2013-09-09T12:00:00-04:00",
+            "value": {
+                "amount": 221507616,
+                "currency": "PYG"
+            },
+            "status": "active"
+        },
+        "tender": {
+            "procuringEntity": {
+                "name": "Municipalidad de Encarnaci\u00f3n",
+                "id": "DNCP-SICP-CODE-140"
+            },
+            "coveredBy": [
+                "fonacide"
+            ],
+            "mainProcurementCategoryDetails": "Obras - Construcci\u00f3n, Restauraci\u00f3n, Reconstrucci\u00f3n o Remodelaci\u00f3n y Reparaci\u00f3n de Inmuebles",
+            "statusDetails": "Adjudicada",
+            "id": "261883-construccion-remodelacion-mantenimientos-otros",
+            "title": "Construccion, remodelacion, mantenimientos y otros",
+            "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
+            "tenderPeriod": {
+                "durationInDays": 24,
+                "endDate": "2013-07-29T10:00:00-04:00",
+                "startDate": "2013-07-04T16:04:03-04:00"
+            }
+        },
+        "planning": {
+            "identifier": "261883"
+        },
+        "tenderDatePublished": "2013-07-04T16:04:03-04:00",
+        "suppliers": [
+            {
+                "name": "JUAN ALBERTO RODRIGUEZ LEZCANO",
+                "id": "PY-RUC-820071-8"
             }
         ]
     },
@@ -9459,201 +9562,6 @@
         ]
     },
     {
-        "LP-30094-13-80682": {
-            "awardID": "261883-juan-alberto-rodriguez-lezcano-5",
-            "period": {
-                "durationInDays": 120
-            },
-            "documents": [
-                {
-                    "datePublished": "2013-11-28T10:07:07-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "l/JqYSGGNP4=",
-                    "title": "nota_aclaracion___1385549855945.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/l%252FJqYSGGNP4%253D"
-                },
-                {
-                    "datePublished": "2013-11-28T10:07:07-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "PsF6lkUvmqA=",
-                    "title": "nota_aclaracion___1384516521108.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/PsF6lkUvmqA%253D"
-                },
-                {
-                    "datePublished": "2013-11-28T10:07:07-04:00",
-                    "documentTypeDetails": "Orden de Compra o Contrato",
-                    "documentType": "contractSigned",
-                    "language": "es",
-                    "id": "LdacH8sAIF0=",
-                    "title": "contrato_jr_1385549867699.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/LdacH8sAIF0%253D"
-                }
-            ],
-            "implementation": {
-                "financialProgress": {
-                    "breakdown": [
-                        {
-                            "classifications": {
-                                "tipo_programa": "2",
-                                "objeto_gasto": "520",
-                                "sub_programa": "1",
-                                "fuente_financiamiento": "30",
-                                "entidad": "94",
-                                "programa": "0",
-                                "proyecto": "0",
-                                "departamento": "7",
-                                "nivel": "30",
-                                "anio": "2013",
-                                "financiador": "3",
-                                "cdp": "261883"
-                            },
-                            "period": {
-                                "endDate": "2013-12-31T00:00:00Z",
-                                "startDate": "2013-01-01T00:00:00Z"
-                            },
-                            "measures": {
-                                "monto_a_utilizar": "221507616"
-                            },
-                            "financialCode": "LP-30094-13-80682",
-                            "id": "2013/30/94/2/0/1/0/3/7/520/30/LP-30094-13-80682"
-                        }
-                    ]
-                }
-            },
-            "statusDetails": "Adjudicado",
-            "id": "LP-30094-13-80682",
-            "dateSigned": "2013-09-09T12:00:00-04:00",
-            "value": {
-                "amount": 221507616,
-                "currency": "PYG"
-            },
-            "status": "active"
-        },
-        "tender": {
-            "procuringEntity": {
-                "name": "Municipalidad de Encarnaci\u00f3n",
-                "id": "DNCP-SICP-CODE-140"
-            },
-            "coveredBy": [
-                "fonacide"
-            ],
-            "mainProcurementCategoryDetails": "Obras - Construcci\u00f3n, Restauraci\u00f3n, Reconstrucci\u00f3n o Remodelaci\u00f3n y Reparaci\u00f3n de Inmuebles",
-            "statusDetails": "Adjudicada",
-            "id": "261883-construccion-remodelacion-mantenimientos-otros",
-            "title": "Construccion, remodelacion, mantenimientos y otros",
-            "procurementMethodDetails": "Licitaci\u00f3n P\u00fablica Nacional",
-            "tenderPeriod": {
-                "durationInDays": 24,
-                "endDate": "2013-07-29T10:00:00-04:00",
-                "startDate": "2013-07-04T16:04:03-04:00"
-            }
-        },
-        "planning": {
-            "identifier": "261883"
-        },
-        "tenderDatePublished": "2013-07-04T16:04:03-04:00",
-        "suppliers": [
-            {
-                "name": "JUAN ALBERTO RODRIGUEZ LEZCANO",
-                "id": "PY-RUC-820071-8"
-            }
-        ]
-    },
-    {
-        "CO-30094-13-76879": {
-            "awardID": "253228-engineering-s-a-4",
-            "period": {
-                "durationInDays": 80
-            },
-            "documents": [
-                {
-                    "datePublished": "2013-08-27T09:31:49-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "G/LcglYmkLw=",
-                    "title": "nota_aclaracion_1377263724267.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/G%252FLcglYmkLw%253D"
-                },
-                {
-                    "datePublished": "2013-08-27T09:31:49-04:00",
-                    "documentTypeDetails": "Orden de Compra o Contrato",
-                    "documentType": "contractSigned",
-                    "language": "es",
-                    "id": "MKKW2GCn9SE=",
-                    "title": "contrato_engineering_1377263755054.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/MKKW2GCn9SE%253D"
-                }
-            ],
-            "implementation": {
-                "financialProgress": {
-                    "breakdown": [
-                        {
-                            "classifications": {
-                                "tipo_programa": "2",
-                                "objeto_gasto": "540",
-                                "sub_programa": "1",
-                                "fuente_financiamiento": "30",
-                                "entidad": "94",
-                                "programa": "0",
-                                "proyecto": "0",
-                                "departamento": "7",
-                                "nivel": "30",
-                                "anio": "2013",
-                                "financiador": "3",
-                                "cdp": "253228"
-                            },
-                            "period": {
-                                "endDate": "2013-12-31T00:00:00Z",
-                                "startDate": "2013-01-01T00:00:00Z"
-                            },
-                            "measures": {
-                                "monto_a_utilizar": "50650000"
-                            },
-                            "financialCode": "CO-30094-13-76879",
-                            "id": "2013/30/94/2/0/1/0/3/7/540/30/CO-30094-13-76879"
-                        }
-                    ]
-                }
-            },
-            "statusDetails": "Adjudicado",
-            "id": "CO-30094-13-76879",
-            "dateSigned": "2013-05-09T12:00:00-04:00",
-            "value": {
-                "amount": 50650000,
-                "currency": "PYG"
-            },
-            "status": "active"
-        },
-        "tender": {
-            "procuringEntity": {
-                "name": "Municipalidad de Encarnaci\u00f3n",
-                "id": "DNCP-SICP-CODE-140"
-            },
-            "mainProcurementCategoryDetails": "Bienes - Muebles y Enseres",
-            "statusDetails": "Adjudicada",
-            "id": "253228-adquisicion-equipos-oficina-computacion",
-            "title": "Adquisicion de Equipos de Oficina y Computacion",
-            "procurementMethodDetails": "Concurso de Ofertas",
-            "tenderPeriod": {
-                "durationInDays": 12,
-                "endDate": "2013-03-26T10:00:00-04:00",
-                "startDate": "2013-03-13T17:05:27-04:00"
-            }
-        },
-        "planning": {
-            "identifier": "253228"
-        },
-        "tenderDatePublished": "2013-03-13T17:05:27-04:00",
-        "suppliers": [
-            {
-                "name": "ENGINEERING S.A.",
-                "id": "PY-RUC-80047025-7"
-            }
-        ]
-    },
-    {
         "CO-30094-13-76880": {
             "awardID": "253228-roble-corp-s-a-5",
             "period": {
@@ -9662,20 +9570,20 @@
             "documents": [
                 {
                     "datePublished": "2013-08-27T09:53:34-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
+                    "language": "es",
+                    "id": "h9bLYHicCVk=",
+                    "title": "nota_aclaracion__1377263876746.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/h9bLYHicCVk%253D"
+                },
+                {
+                    "datePublished": "2013-08-27T09:53:34-04:00",
                     "documentTypeDetails": "Orden de Compra o Contrato",
                     "documentType": "contractSigned",
                     "language": "es",
                     "id": "RCbL+svcApQ=",
                     "title": "contrato_roble_corp_1377263889486.pdf",
                     "url": "https://www.contrataciones.gov.py/documentos/download/contrato/RCbL%252BsvcApQ%253D"
-                },
-                {
-                    "datePublished": "2013-08-27T09:53:34-04:00",
-                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
-                    "language": "es",
-                    "id": "h9bLYHicCVk=",
-                    "title": "nota_aclaracion__1377263876746.pdf",
-                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/h9bLYHicCVk%253D"
                 }
             ],
             "implementation": {
@@ -9826,6 +9734,98 @@
             {
                 "name": "ANDRES MOREL FRETES",
                 "id": "PY-RUC-1438392-6"
+            }
+        ]
+    },
+    {
+        "CO-30094-13-76879": {
+            "awardID": "253228-engineering-s-a-4",
+            "period": {
+                "durationInDays": 80
+            },
+            "documents": [
+                {
+                    "datePublished": "2013-08-27T09:31:49-04:00",
+                    "documentTypeDetails": "Orden de Compra o Contrato",
+                    "documentType": "contractSigned",
+                    "language": "es",
+                    "id": "MKKW2GCn9SE=",
+                    "title": "contrato_engineering_1377263755054.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/MKKW2GCn9SE%253D"
+                },
+                {
+                    "datePublished": "2013-08-27T09:31:49-04:00",
+                    "documentTypeDetails": "Nota de Aclaraci\u00f3n",
+                    "language": "es",
+                    "id": "G/LcglYmkLw=",
+                    "title": "nota_aclaracion_1377263724267.pdf",
+                    "url": "https://www.contrataciones.gov.py/documentos/download/contrato/G%252FLcglYmkLw%253D"
+                }
+            ],
+            "implementation": {
+                "financialProgress": {
+                    "breakdown": [
+                        {
+                            "classifications": {
+                                "tipo_programa": "2",
+                                "objeto_gasto": "540",
+                                "sub_programa": "1",
+                                "fuente_financiamiento": "30",
+                                "entidad": "94",
+                                "programa": "0",
+                                "proyecto": "0",
+                                "departamento": "7",
+                                "nivel": "30",
+                                "anio": "2013",
+                                "financiador": "3",
+                                "cdp": "253228"
+                            },
+                            "period": {
+                                "endDate": "2013-12-31T00:00:00Z",
+                                "startDate": "2013-01-01T00:00:00Z"
+                            },
+                            "measures": {
+                                "monto_a_utilizar": "50650000"
+                            },
+                            "financialCode": "CO-30094-13-76879",
+                            "id": "2013/30/94/2/0/1/0/3/7/540/30/CO-30094-13-76879"
+                        }
+                    ]
+                }
+            },
+            "statusDetails": "Adjudicado",
+            "id": "CO-30094-13-76879",
+            "dateSigned": "2013-05-09T12:00:00-04:00",
+            "value": {
+                "amount": 50650000,
+                "currency": "PYG"
+            },
+            "status": "active"
+        },
+        "tender": {
+            "procuringEntity": {
+                "name": "Municipalidad de Encarnaci\u00f3n",
+                "id": "DNCP-SICP-CODE-140"
+            },
+            "mainProcurementCategoryDetails": "Bienes - Muebles y Enseres",
+            "statusDetails": "Adjudicada",
+            "id": "253228-adquisicion-equipos-oficina-computacion",
+            "title": "Adquisicion de Equipos de Oficina y Computacion",
+            "procurementMethodDetails": "Concurso de Ofertas",
+            "tenderPeriod": {
+                "durationInDays": 12,
+                "endDate": "2013-03-26T10:00:00-04:00",
+                "startDate": "2013-03-13T17:05:27-04:00"
+            }
+        },
+        "planning": {
+            "identifier": "253228"
+        },
+        "tenderDatePublished": "2013-03-13T17:05:27-04:00",
+        "suppliers": [
+            {
+                "name": "ENGINEERING S.A.E.C.A.",
+                "id": "PY-RUC-80047025-7"
             }
         ]
     },

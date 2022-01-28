@@ -1,2 +1,6 @@
 *.txt
+*.bin
 __pycache__/
+.config/
+Contratos/
+Documentos/

@@ -1,21 +1,13 @@
 #First, let create creds
 #First, we obtain the access token
-import pathlib
+from pathlib import Path
 import json
-from requestAccessToken import *
-from selectAwards import *
-from selectContracts import *
-from selectTenders import *
+from requestAccessToken import requestAccessToken
+from selectAwards import requestAwards
+from selectContracts import requestContracts
+from selectTenders import requestTenders
 
-with open(pathlib.Path(__file__).parent / "CK.txt", 'r') as file:
-    CK = file.read()
-with open(pathlib.Path(__file__).parent / "CS.txt", "r") as file:
-    CS = file.read()
-
-accTkn = requestAccessToken(CK, CS)
-
-
-def create_data(entity: str = "Municipalidad de Asunción", accTkn:str = accTkn)-> None:
+def create_data(entity: str = "Municipalidad de Asunción", accTkn:str = "")-> None:
     
     # Configuraciones
     configs = {
@@ -28,13 +20,16 @@ def create_data(entity: str = "Municipalidad de Asunción", accTkn:str = accTkn)
     
     final_data = []
     #First we request for tenders
+    if accTkn == "":
+        accTkn = requestAccessToken()
     data = requestTenders(configs, accTkn)
 
     for record in data:
         record = record['compiledRelease']
 
         for contract in record['contracts']:
-            contract_info = requestContracts(contract['id'], accTkn)
+            contract_info = requestContracts(contract['id'], accTkn, record['anho'], entity)
+            contract_info['id_ocds'] = contract['id']
             contract_info['tender'] = record['tender']
             contract_info['planning'] = record['planning']
             contract_info['tenderDatePublished'] = record['tenderDatePublished']
@@ -44,13 +39,11 @@ def create_data(entity: str = "Municipalidad de Asunción", accTkn:str = accTkn)
 
             final_data.append(contract_info)
     
-    with open(pathlib.Path(__file__).parent / f'{entity}.json', 'w') as file:
+    with open(Path(__file__).parent / 'Documentos' / f'{entity}' / f'{entity}.json', 'w') as file:
         json.dump(final_data, file, indent = 4)
-    
     return final_data
 
 
 if __name__ == "__main__":
-    create_data("Municipalidad de Asunción", accTkn)
-    create_data("Municipalidad de Encarnación", accTkn)
-
+    accTkn = requestAccessToken()
+    create_data("Municipalidad de Minga Guazú", accTkn)
