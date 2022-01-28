@@ -7,7 +7,7 @@ from pathlib import Path
 def requestAccessToken(CK: str = '', CS: str = '') -> str:
     '''This function will return an access token to be used '''
     # If there are not Consumer Keys or consumer Secrets, lets open them. 
-    mypath = Path(__file__).parent
+    mypath = Path(__file__).parent / ".config" / "DNCP"
 
     if False and Path.is_file(mypath / "access.bin"):
         with open(mypath / "access.bin", "r", encoding = 'utf-8') as f:
