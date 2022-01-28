@@ -1,3 +1,9 @@
+"""
+Author: Elvis Agüero <elvisavfc65@gmail.com>
+
+Created: 27th January, 2022
+"""
+
 import requests
 from requestAccessToken import requestAccessToken
 from pathlib import Path

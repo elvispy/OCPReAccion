@@ -15,6 +15,8 @@ logging.basicConfig(filename = 'debug.log', filemode = 'a', level = logging.INFO
 
 # Thirds Party Imports
 import gspread
+
+# Modules
 def upload_data(fileName: str, key: str):
     """
     This script will upload data stored in fileNames list and upload it to drive
