@@ -5,6 +5,8 @@ Dirección Nacional de Contrataciones Públicas, mediante la APIv3, disponible e
 
 > https://www.contrataciones.gov.py/datos/
 
+
+## fetch_data_from_dncp()
 El script que se encarga de descargar los datos es <code> fetch_data_from _dncp </code>, que recibe dos argumentos: el nombre del convocante y, opcionalmente el access token de la API de la DNCP. Si el access token no es proveido, el script espera dos archivos "CK.txt" y "CS.txt", dos archivos con el consumer key y el consumer secret de la aplicación. Para más información, léase la documentación proveída por la DNCP:
 
 > https://www.contrataciones.gov.py/datos/manual
@@ -98,10 +100,10 @@ Además, un resumen de los datos obtenidos se guardarán en un archivo JSON, que
             "coveredBy": [
                 "fonacide"
             ],
-            "mainProcurementCategoryDetails": "Obras - Construcci\u00f3n, Restauraci\u00f3n, Reconstrucci\u00f3n o Remodelaci\u00f3n y Reparaci\u00f3n de Inmuebles",
+            "mainProcurementCategoryDetails": "Alimentación Escolar",
             "statusDetails": "Adjudicada",
-            "id": "401060-construccion-aula-cocina-comedor-tinglado-reparacion-techo-distintas-escuelas-public-1",
-            "title": "Construcci\u00f3n de Aula, Cocina Comedor, Tinglado y Reparaci\u00f3n de Techo en Distintas Escuelas P\u00fablicas del Distrito de Minga Guaz\u00fa",
+            "id": "ejemplo_de_id",
+            "title": "Ejemplo de Titulo",
             "procurementMethodDetails": "Concurso de Ofertas",
             "tenderPeriod": {
                 "durationInDays": 9,
@@ -121,8 +123,12 @@ Además, un resumen de los datos obtenidos se guardarán en un archivo JSON, que
         ]
     }
 ```
-    hola
-    bb
-    234
 
-**probando**
+## uploadToDrive()
+
+Este script tiene como finalidad subir los datos del json al Google Drive. Espera como argumentos dos strings, uno con el nombre del json a ser analizado, y otro con el código de
+la hoja de cálculo de Google donde deben cargarse los datos. 
+
+Se debe realizar una autenticación previa del servicio de consumo de APIS de google, cuya documentación está disponible en 
+
+> https://docs.gspread.org/en/latest/oauth2.html 

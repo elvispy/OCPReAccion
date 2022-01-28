@@ -123,4 +123,11 @@ def upload_data(fileName: str, key: str):
         print("Wrong password, action cancelled :)")
         
 if __name__ == '__main__':
-    upload_data("Municipalidad de Minga Guazú.json", "1VIk3HffKsIG9X1igF8B8mD1cTU9TO5C0efZ2gAlPnk0")
+    key = Path.gwd() / ".config" / "gpsread" / "spreadsheetkey.txt"
+    try:
+        with open(key, "r") as file:
+            key = file.read()
+        upload_data("Municipalidad de Minga Guazú.json", key) 
+    except Exception as e:
+        print(e)
+        
