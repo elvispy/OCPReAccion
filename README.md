@@ -6,7 +6,7 @@ Dirección Nacional de Contrataciones Públicas, mediante la APIv3, disponible e
 > https://www.contrataciones.gov.py/datos/
 
 
-## fetch_data_from_dncp()
+## Descargando los datos para análisis: fetch_data_from_dncp()
 El script que se encarga de descargar los datos es <code> fetch_data_from _dncp </code>, que recibe dos argumentos: el nombre del convocante y, opcionalmente el access token de la API de la DNCP. Si el access token no es proveido, el script espera dos archivos "CK.txt" y "CS.txt", dos archivos con el consumer key y el consumer secret de la aplicación. Para más información, léase la documentación proveída por la DNCP:
 
 > https://www.contrataciones.gov.py/datos/manual
@@ -124,7 +124,7 @@ Además, un resumen de los datos obtenidos se guardarán en un archivo JSON, que
     }
 ```
 
-## uploadToDrive()
+## Subiendo los datos a una planilla de google para análisis: uploadToDrive()
 
 Este script tiene como finalidad subir los datos del json al Google Drive. Espera como argumentos dos strings, uno con el nombre del json a ser analizado, y otro con el código de
 la hoja de cálculo de Google donde deben cargarse los datos. 

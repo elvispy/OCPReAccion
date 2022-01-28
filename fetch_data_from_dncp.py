@@ -6,10 +6,11 @@ Author: Elvis Agüero <elvisavfc65@gmail.com>
 Created: 27th January, 2022
 """
 
-#First, let create creds
-#First, we obtain the access token
+# Built in imports
 from pathlib import Path
 import json
+
+# Local importss
 from requestAccessToken import requestAccessToken
 from selectAwards import requestAwards
 from selectContracts import requestContracts

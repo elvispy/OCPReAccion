@@ -1,7 +1,21 @@
-import requests
-from requestAccessToken import *
-import re
+"""
+Author: Elvis Agüero <elvisavfc65@gmail.com>
 
+Created: 27th January, 2022
+"""
+
+# Built in imports
+import requests
+import re
+from pathlib import Path
+import logging
+logging.basicConfig(filename = 'debug.log', filemode = 'a', level = logging.INFO, \
+    format='%(asctime)s %(message)s')
+
+# Local imports
+from requestAccessToken import requestAccessToken
+
+# Modules
 def requestTenders(configs: dict, accTkn: str):
     '''This functions will make a request to search for all tenders in a given range'''
 

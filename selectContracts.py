@@ -4,10 +4,17 @@ Author: Elvis Agüero <elvisavfc65@gmail.com>
 Created: 27th January, 2022
 """
 
+# Builtin imports
 import requests
-from requestAccessToken import requestAccessToken
 from pathlib import Path
+import logging
+logging.basicConfig(filename = 'debug.log', filemode = 'a', level = logging.INFO, \
+    format='%(asctime)s %(message)s')
 
+# Local Imports
+from requestAccessToken import requestAccessToken
+
+# Modules
 def requestContracts(id: list, accTkn: str, anho: str, entidad:str):
     '''This function will return the data of a contract given its id '''
 
