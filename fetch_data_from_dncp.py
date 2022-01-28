@@ -56,4 +56,4 @@ def create_data(entity: str = "Municipalidad de Asunción", accTkn:str = "")-> N
 
 if __name__ == "__main__":
     accTkn = requestAccessToken()
-    create_data("Municipalidad de Minga Guazú", accTkn)
+    create_data("Municipalidad de Arroyito", accTkn)

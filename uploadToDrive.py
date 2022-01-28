@@ -28,7 +28,8 @@ def upload_data(fileName: str, key: str):
             * spreadsheet key to open on google drive
     """
     # Open JSON data with the awards data
-    path = Path(__file__).parent / fileName
+    
+    path = Path(__file__).parent / "Documentos" / fileName[:-5] / fileName
     with open(path, 'r', encoding='utf-8') as file:
         data = json.loads(file.read())
     
@@ -122,11 +123,14 @@ def upload_data(fileName: str, key: str):
         print("Wrong password, action cancelled :)")
         
 if __name__ == '__main__':
-    key = Path.gwd() / ".config" / "gpsread" / "spreadsheetkey.txt"
+    key = Path.cwd() / ".config" / "gspread" / "spreadsheetkey.txt"
     try:
         with open(key, "r") as file:
             key = file.read()
-        upload_data("Municipalidad de Minga Guazú.json", key) 
+
+        # Dummy file
+        upload_data("Municipalidad de Arroyito.json", "1gLyvwworMu_GjPHxpfGu8537vJwE9sIWYy36eMcrBew") 
+        # upload_data("Municipalidad de Minga Guazú.json", key) 
     except Exception as e:
         print(e)
         
