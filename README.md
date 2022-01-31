@@ -132,3 +132,9 @@ la hoja de cálculo de Google donde deben cargarse los datos.
 Se debe realizar una autenticación previa del servicio de consumo de APIS de google, cuya documentación está disponible en 
 
 > https://docs.gspread.org/en/latest/oauth2.html 
+
+
+## Siguientes pasos:
+
+- Hacer que el script suba al drive solo los datos que faltan (Para facilitar actualizacion de datos)
+- Hacer que el script induzca que Instituciones pudieron haber sido beneficiadas en un contrato. 

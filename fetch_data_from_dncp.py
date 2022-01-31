@@ -23,7 +23,7 @@ def create_data(entity: str = "Municipalidad de Asunción", accTkn:str = "")-> N
     configs = {
         'items_per_page':1000,
         'fecha_desde':'2013-01-01',
-        'tipo_fecha':'fecha_release',
+        'tipo_fecha':'publicacion_llamado',
         'tender.procuringEntity.name':entity,
         'contracts.implementation.financialProgress.breakdown.classifications.financiador':3
     }
