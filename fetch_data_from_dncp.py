@@ -3,6 +3,8 @@ This script will export awards' data from DNCP's API.
 
 Author: Elvis Agüero <elvisavfc65@gmail.com>
 
+TODO: Analizar adendas! (Ej 349475)
+
 Created: 27th January, 2022
 """
 
@@ -56,4 +58,4 @@ def create_data(entity: str = "Municipalidad de Asunción", accTkn:str = "")-> N
 
 if __name__ == "__main__":
     accTkn = requestAccessToken()
-    create_data("Municipalidad de Arroyito", accTkn)
+    create_data("Municipalidad de San Lorenzo", accTkn)

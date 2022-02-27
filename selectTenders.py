@@ -41,9 +41,14 @@ def requestTenders(configs: dict, accTkn: str):
         res = data.json()['records']
         c = 0
         for rec in res:
-            urlbase2 =  f"https://www.contrataciones.gov.py/datos/api/v3/doc/tender/{rec['compiledRelease']['planning']['identifier']}?sections=datePublished,documents,procuringEntity"
+            try:
+                lic_id = rec['compiledRelease']['planning']['identifier']
+            except KeyError:
+                rec['compiledRelease']['planning'] = {'identifier': rec['compiledRelease']['tender']['id'][:6]}
+                lic_id = rec['compiledRelease']['tender']['id'][:6]
+            urlbase2 =  f"https://www.contrataciones.gov.py/datos/api/v3/doc/tender/{lic_id}?sections=datePublished,documents,procuringEntity"
             myreq = requests.get(urlbase2, headers = headers)
-            print(rec['compiledRelease']['planning']['identifier'])
+            print(lic_id)
             print(c)
             c+=1
                 
